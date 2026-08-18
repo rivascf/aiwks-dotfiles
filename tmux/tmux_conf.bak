@@ -1,0 +1,86 @@
+# Enable Colours
+set -g default-terminal 'xterm-256color'
+set -as terminal-overrides ',xterm*:Tc:sitm=\E[3m'
+
+# Prefix Key
+set -g prefix C-a   # Prefijo Ctrl+a
+#set -g prefix M-q    # Prefijo Alt+q 
+unbind C-b
+bind-key C-a send-prefix
+
+# Open new windows in current directory path
+bind c new-window -c "#{pane_current_path}"
+
+# Split Windows
+unbind %
+bind | split-window -h -c "#{pane_current_path}"
+unbind '"'
+bind - split-window -v -c "#{pane_current_path}"
+
+# Reload Config
+unbind r
+bind r source-file ~/.config/tmux/tmux.conf \; display-message "󰑓 Config reloaded"
+
+# Resizes Panes
+bind -r j resize-pane -D 5
+bind -r k resize-pane -U 5
+bind -r l resize-pane -R 5
+bind -r h resize-pane -L 5
+bind -r m resize-pane -Z
+
+# Set Mouse On (not really used but, ahhh)
+set -g mouse on
+
+# Scrollback
+set -g history-limit 20000
+
+# VIM motions
+set-window-option -g mode-keys vi 
+bind-key -T copy-mode-vi 'v' send -X begin-selection
+bind-key -T copy-mode-vi 'y' send -X copy-selection
+
+# Enable Mouse Dragging
+unbind -T copy-mode-vi MouseDragEnd1Pane
+
+# List of plugins
+set -g @plugin 'tmux-plugins/tpm'
+set -g @plugin 'tmux-plugins/tmux-sensible'
+set -g @plugin 'christoomey/vim-tmux-navigator'
+set -g @plugin 'tmux-plugins/tmux-resurrect'
+set -g @plugin 'tmux-plugins/tmux-continuum'
+set -g @plugin 'tmux-plugins/tmux-yank'
+set -g @plugin "janoamaral/tokyo-night-tmux"
+
+### Auto Save / Restore ###
+set -g @resurrect-capture-pane-contents 'on'
+set -g @continuum-restore 'on'
+set -g @continuum-save-interval '10' # save interval in minutes
+
+# Status Line Position
+set-option -g status-position bottom #top
+
+# Style: based on TokioNight Theme
+# https://github.com/janoamaral/tokyo-night-tmux/blob/master/src/themes.sh
+# set-option -g status-style "bg=#1A1B26,fg=#E0E1DD"
+set -g @tokyo-night-tmux_theme night     # storm | day | default to 'night'
+set -g @tokyo-night-tmux_transparent 0   # 1 or 0
+set -g @tokyo-night-tmux_date_format DMY # Datetime format Day,Month,Year
+# Tabs format
+set -g @tokyo-night-tmux_window_id_style hide # sub, digital
+# set -g @tokyo-night-tmux_pane_id_style hsquare
+# set -g @tokyo-night-tmux_zoom_id_style dsquare
+# Icon styles
+set -g @tokyo-night-tmux_terminal_icon 
+set -g @tokyo-night-tmux_active_terminal_icon 
+# No extra spaces between icons
+set -g @tokyo-night-tmux_window_tidy_icons 0
+# Enable network speed, ip
+#set -g @tokyo-night-tmux_show_netspeed 0
+#set -g @tokyo-night-tmux_netspeed_iface enp46s0 # Detected via default route
+#set -g @tokyo-night-tmux_netspeed_showip 1 # Display IPv4 address (default 0)
+#set -g @tokyo-night-tmux_netspeed_refresh 1
+# Hostname
+#set -g @tokyo-night-tmux_show_hostname 1
+
+# Initialize TMUX plugin manager (keep this line at the very bottom of tmux.conf)
+run '~/.config/tmux/plugins/tpm/tpm'
