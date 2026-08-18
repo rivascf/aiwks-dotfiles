@@ -1,0 +1,1000 @@
+ 1017  batcat --theme OneHalfDark .bash_aliases 
+ 1018  vim .bash_aliases 
+ 1019  rsttrm 
+ 1020  fzfcf
+ 1021  fzfcd
+ 1022  cd ..
+ 1023  fzfp
+ 1024  fzfv 
+ 1025  vim .bash_aliases 
+ 1026  rsttrm 
+ 1027  fzfp
+ 1028  vim .bash_aliases 
+ 1029  rsttrm 
+ 1030  cls
+ 1031  cd
+ 1032  mkdir .config/tmux/scripts
+ 1033  vim .config/tmux/scripts/tmux-wnd-menu.sh
+ 1034  chmod +x .config/tmux/scripts/tmux-wnd-menu.sh
+ 1035  vim ~/.config/tmux/tmux.conf 
+ 1036  cls
+ 1037  vim ~/.config/tmux/tmux.conf 
+ 1038  cls
+ 1039  vim ~/.config/tmux/tmux.conf 
+ 1040  cls
+ 1041  fzfp
+ 1042  tmux
+ 1043  echo $PS1
+ 1044  vim .term_prompt.bash
+ 1045  tmux
+ 1046  cd Documents/
+ 1047  l
+ 1048  cd Obsidian
+ 1049  l
+ 1050  cd pkm_vault/
+ 1051  l
+ 1052  mv 00\ -\ Maps\ of\ Content/ 00_Maps_of_Content/
+ 1053  l
+ 1054  mv 01\ -\ Projects/ 01_Projects/
+ 1055  mv 02\ -\ Areas/ 02_Areas/
+ 1056  mv 03\ -\ Resources/ 03_Resources/
+ 1057  mv 04\ -\ Permanent/ 04_Permanent/
+ 1058  mv 05\ -\ Fleeting/ 05_Fleeting
+ 1059  mv 06\ -\ Daily/ 06_Daily/
+ 1060  mv 07\ -\ Archives/ 07_Archives/
+ 1061  mv 99\ -\ Meta/ 99_Meta/
+ 1062  l
+ 1063  obsidian
+ 1064  ps -ef grep obsidian | grep -v grep
+ 1065  ps -ef | grep obsidian | grep -v grep
+ 1066  ps -ef | grep obsidian 
+ 1067  ps | grep obsidian | grep -v grep
+ 1068  sudo shutdown -r now
+ 1069  ps -ef | grep obsidian | grep -v grep
+ 1070  sudo shutdown -r now
+ 1071  cd Documents/Obsidian/
+ 1072  history | grep pkm_vault
+ 1073  cd ..
+ 1074  cd mynotes/
+ 1075  fzfv
+ 1076  it clone https://github.com/rivascf/pkm_vault.git
+ 1077  git clone https://github.com/rivascf/pkm_vault.git
+ 1078  history | grep ssh
+ 1079  ssh -T git@github.com
+ 1080  cd ../Obsidian/
+ 1081  git clone https://github.com/rivascf/pkm_vault.git
+ 1082  fzf
+ 1083  cd ..
+ 1084  l
+ 1085  batcat personal_keys.md 
+ 1086  cd mynotes/
+ 1087  l
+ 1088  cdc ..
+ 1089  cd ..
+ 1090  cd
+ 1091  l
+ 1092  fzfp
+ 1093  cd Documents/
+ 1094  cd Obsidian/
+ 1095  rm -rf pkm_vault/
+ 1096  history | grep pkm
+ 1097  334
+ 1098  history 334
+ 1099  334
+ 1100  history | grep pkm
+ 1101  git clone https://github.com/rivascf/pkm_vault.git
+ 1102  cd ..
+ 1103  cd mynotes/
+ 1104  git pull origin main
+ 1105  vim 
+ 1106  cd Documents/mynotes/
+ 1107  vim .
+ 1108  gst
+ 1109  git add .
+ 1110  git commit -m "Updated yemporal files"
+ 1111  git push -u origin main
+ 1112  vim .
+ 1113  actapt && upgapt && cleanapt 
+ 1114  systemctl list
+ 1115  systemctl list-jobs
+ 1116  systemctl -h
+ 1117  systemctl list-units --type=service
+ 1118  systemctl list-units --type=service --all
+ 1119  cd Documents/aiwks_dotfiles/docs/rawfiles/
+ 1120  l
+ 1121  vim install_used_links.md 
+ 1122  cd
+ 1123  vim .config/nvim/
+ 1124  cd -
+ 1125  vim install_used_links.md 
+ 1126  fzfp
+ 1127  cd -
+ 1128  fzfp
+ 1129  l .local/share/markdown-themes/
+ 1130  mv .local/share/markdown-themes/ ~/.config/nvim/
+ 1131  l ~/.config/nvim/
+ 1132  cd ~/.config/nvim/markdown-themes/
+ 1133  pwd
+ 1134  cd ..
+ 1135  vim .
+ 1136  mv markdown-themes/ ./lua/frivas/
+ 1137  vim .
+ 1138  mv ./lua/frivas/markdown-themes/ ./lua/frivas/plugins/
+ 1139  l ./lua/frivas/plugins/
+ 1140  cd ./lua/frivas/plugins/markdown-themes/
+ 1141  pwd
+ 1142  cd -
+ 1143  vim .
+ 1144  cd Documents/aiwks_dotfiles/docs/rawfiles/
+ 1145  cd ~/Documents/aiwks_dotfiles/docs/rawfiles/
+ 1146  vim
+ 1147  vim install_used_links.md 
+ 1148  cd ..
+ 1149  vim ~/.config/nvim/
+ 1150  cd -
+ 1151  vim .
+ 1152  cd ~/Documents/mynotes/
+ 1153  vim
+ 1154  cd ~/Documents/aiwks_dotfiles/docs/rawfiles/
+ 1155  vim install_used_links.md 
+ 1156  cd
+ 1157  cd Documents/mynotes/
+ 1158  vim
+ 1159  cd Documents/mynotes/
+ 1160  vim .
+ 1161  cd Documents/mynotes/
+ 1162  gst
+ 1163  git add temporal/dltme_notes.md 
+ 1164  git commit -m "Updated temporal files."
+ 1165  gst
+ 1166  git push -u origin main
+ 1167  vim Documents/aiwks_dotfiles/docs/rawfiles/install_used_links.md 
+ 1168  vim Documents/mynotes/docs/Obsidian_notes.md 
+ 1169  vim ~/.config/nvim/init.lua 
+ 1170  vim ~/.config/nvim/
+ 1171  fc-list | grep "Nerd Font" |  grep Mono
+ 1172  vim ~/.config/nvim/
+ 1173  vim Documents/test.py
+ 1174  rm Documents/test.py
+ 1175  vim ~/.config/nvim/
+ 1176  batcat ~/Documents/aiwks_dotfiles/docs/rawfiles/aiwks_history_021225.txt 
+ 1177  cd Downloads/
+ 1178  bash -c  "$(curl -fsSL https://raw.githubusercontent.com/officialrajdeepsingh/nerd-fonts-installer/main/install.sh)"
+ 1179  fc-list | grep "Nerd Font" |  grep Mono
+ 1180  vim ~/.config/nvim/
+ 1181  vim Documents/test.py
+ 1182  vim ~/Documents/test.py
+ 1183  vim ~/.config/nvim/
+ 1184  actapt && upgapt && cleanapt 
+ 1185  sudo shutdown -r now
+ 1186  cls
+ 1187  cls
+ 1188  l
+ 1189  cd Projects/
+ 1190  l
+ 1191  mkdir Assistant
+ 1192  cd Assistant/
+ 1193  uv init 
+ 1194  l
+ 1195  ll
+ 1196  vim .
+ 1197  wich isort
+ 1198  which isort
+ 1199  where isort
+ 1200  fzfp
+ 1201  cd
+ 1202  fzfp
+ 1203  cd -
+ 1204  vim .
+ 1205  python -V
+ 1206  python main.py 
+ 1207  ollama list
+ 1208  curl -fsSL https://ollama.com/install.sh | sh
+ 1209  ollama list
+ 1210  ollama run nemotron-3-nano
+ 1211  ollama list
+ 1212  cls
+ 1213  cd Applications/
+ 1214  l
+ 1215  cd nvim_venv/
+ 1216  source .venv/bin/activate
+ 1217  pip install isort blck
+ 1218  pip install isort black
+ 1219  python -v
+ 1220  python -V
+ 1221  pip install isort black
+ 1222  l
+ 1223  uv cat python 
+ 1224  uv cat pyproject.toml 
+ 1225  cat pyproject.toml 
+ 1226  uv add isort
+ 1227  cat pyproject.toml 
+ 1228  nvidia-smi
+ 1229  tmux new-session
+ 1230  nvidia-smi
+ 1231  cd Projects/
+ 1232  l
+ 1233  cd Assistant/
+ 1234  l
+ 1235  gst
+ 1236  python -V
+ 1237  cd ..
+ 1238  python -V
+ 1239  nvidia-smi -q
+ 1240  nvidia-smi -L
+ 1241  nvidia-smi -B
+ 1242  nvidia-smi -col
+ 1243  nvidia-smi -l 1
+ 1244  watch nvidia-smi
+ 1245  vim ~/.bash_aliases 
+ 1246  rsttrm 
+ 1247  cls
+ 1248  nvtop
+ 1249  gpu-monitor 
+ 1250  cls
+ 1251  l
+ 1252  nvtop
+ 1253  cd ~/ROS2Dev/
+ 1254  cls
+ 1255  l
+ 1256  mkdir -p dofbot_ws/src
+ 1257  mkdir -p dev_ws/src
+ 1258  cd dev_ws/
+ 1259  colcon build
+ 1260  l
+ 1261  cls
+ 1262  cd src
+ 1263  vim .
+ 1264  ros2 pkg
+ 1265  ros2start 
+ 1266  ros2 pkg create test_pkg --build-type ament_python --maintainer-name "Felipe Rivas" --maintainer-email rivascf@gmail.com --description "ROS2 test package" --license MIT --dependencies rclpy --node-name test_node
+ 1267  vim .
+ 1268  cls
+ 1269  cd ~/ROS2Dev/
+ 1270  cls
+ 1271  cd ~/ROS2Dev/
+ 1272  cls
+ 1273  gpu-monitor 
+ 1274  history | tail -10
+ 1275  tmux new-session
+ 1276  sudo install nvtop
+ 1277  sudo apt install nvtop
+ 1278  nvtop
+ 1279  tmux new-session
+ 1280  cd Documents/mynotes/
+ 1281  vim .
+ 1282  cd Documents/mynotes/
+ 1283  vim .
+ 1284  vim ~/.config/nvim/
+ 1285  gst
+ 1286  git add docs/Obsidian_notes.md 
+ 1287  git commit -m "Updated doc files"
+ 1288  git add .
+ 1289  git commit -m "Updated temporal files"
+ 1290  gst
+ 1291  g lg 
+ 1292  vim .
+ 1293  cd Documents/mynotes/
+ 1294  vim .
+ 1295  vim ~/.config/nvim/
+ 1296  vim .
+ 1297  cat temporal/dltme_notes.md  | tail -50
+ 1298  cat temporal/dltme_notes.md  | tail -1400
+ 1299  cat temporal/dltme_notes.md  | more
+ 1300  vim .
+ 1301  black --version
+ 1302  fzfp black
+ 1303  fzfp
+ 1304  vim ~/.config/nvim/
+ 1305  sudo apt install python3-venv
+ 1306  vim ~/.config/nvim/
+ 1307  l ~/.local/share/nvim/
+ 1308  l ~/.local/share/nvim/mason/
+ 1309  l ~/.local/share/nvim/mason/bin/
+ 1310  vim ~/.config/nvim/
+ 1311  l ~/.local/share/nvim/mason/packages/
+ 1312  vim ~/.config/nvim/
+ 1313  cd ~/ROS2Dev/dev_ws/src/
+ 1314  ros2start 
+ 1315  vim .
+ 1316  cd -
+ 1317  ros2 node list
+ 1318  ros2start 
+ 1319  ros2 node list
+ 1320  vim .
+ 1321  actapt && upgapt && cleanapt 
+ 1322  l
+ 1323  tmux new-session
+ 1324  exit
+ 1325  ip addr
+ 1326  fzfp 
+ 1327  lt ROS2Dev/dev_ws/src/test_pkg/test_pkg/
+ 1328  fzfv
+ 1329  exit
+ 1330  actapt && upgapt && cleanapt 
+ 1331  sudo shutdown -r now
+ 1332  ls
+ 1333  l
+ 1334  rm 'ystemctl list-units --type=service --all' 
+ 1335  systemctl list-units --type=service --all
+ 1336  vim .bash_aliases 
+ 1337  nvtop 
+ 1338  l
+ 1339  cd Projects/
+ 1340  l
+ 1341  cd ~/Documents/mynotes/
+ 1342  gst
+ 1343  git pull origin main
+ 1344  gst
+ 1345  git checkout -b temp
+ 1346  git add .
+ 1347  git commit -m "Temporal commit file"
+ 1348  git checkout main
+ 1349  git pull origin main
+ 1350  git pull origin main --rebase
+ 1351  git rebase --abort
+ 1352  gst
+ 1353  git pull origin main
+ 1354  git pull origin main --rebase
+ 1355  git rebase --skip
+ 1356  gst
+ 1357  g lg
+ 1358  cd
+ 1359  l
+ 1360  history grep uv
+ 1361  history | grep uv
+ 1362  uv python list
+ 1363  l
+ 1364  cd Projects/
+ 1365  l
+ 1366  mkdir mini-vla
+ 1367  cd mini-vla/
+ 1368  un init --python 3.10
+ 1369  uv init --python 3.10
+ 1370  l
+ 1371  ll
+ 1372  uv venv --python 3.10
+ 1373  source .venv/bin/activate
+ 1374  git clone https://github.com/keivalya/mini-vla.git
+ 1375  l
+ 1376  rm main.py README.md 
+ 1377  mv -r mini-vla/* ./
+ 1378  mv  mini-vla/* ./
+ 1379  l
+ 1380  lt mini-vla/
+ 1381  rm -rf mini-vla/
+ 1382  l
+ 1383  uv add requirements.txt 
+ 1384  python -m scripts.collect_data   --env-name push-v3   --camera-name corner   --episodes 100   --max-steps 100   --output-path data/metaworld_push_bc.npz
+ 1385  python -m scripts.train   --dataset-path data/push_v3.npz   --epochs 50   --batch-size 64   --save-path checkpoints/model.pt   --device cpu
+ 1386  python -m scripts.train   --dataset-path data/push_v3.npz   --epochs 50   --batch-size 64   --save-path checkpoints/model.pt   --device gpu
+ 1387  python -m scripts.train   --dataset-path data/push_v3.npz   --epochs 50   --batch-size 64   --save-path checkpoints/model.pt   --device cida
+ 1388  python -m scripts.train   --dataset-path data/push_v3.npz   --epochs 50   --batch-size 64   --save-path checkpoints/model.pt   --device cuda
+ 1389  l
+ 1390  lt data
+ 1391  fzfp
+ 1392  deactivate 
+ 1393  cd
+ 1394  l
+ 1395  chkdsksp 
+ 1396  cd ~/Documents/mynotes/
+ 1397  vim .
+ 1398  cd Documents/mynotes/
+ 1399  vim .
+ 1400  gst
+ 1401  git add .
+ 1402  git commit -m "Added tabs_chrome_linux to temporal files."
+ 1403  git push origin main 
+ 1404  git push -u origin main 
+ 1405  g lg
+ 1406  ls
+ 1407  l
+ 1408  cd Downloads/
+ 1409  l
+ 1410  history | grep tar
+ 1411  cat ~/Documents/aiwks_dotfiles/docs/rawfiles/aiwks_history_021225.txt 1 grep tar
+ 1412  cat ~/Documents/aiwks_dotfiles/docs/rawfiles/aiwks_history_021225.txt | grep tar
+ 1413  l
+ 1414  cat ~/Documents/aiwks_dotfiles/docs/rawfiles/aiwks_history_021225.txt | grep tar.xz
+ 1415  cat ~/Documents/aiwks_dotfiles/docs/rawfiles/aiwks_history_091225.txt | grep tar.xz
+ 1416  cat ~/Documents/aiwks_dotfiles/docs/rawfiles/aiwks_history_091225.txt | grep tar
+ 1417  sudo snap install blender --classic
+ 1418  l
+ 1419  rm blender-5.0.1-linux-x64.tar.xz 
+ 1420  l
+ 1421  rm Zotero-7.0.30_linux-x86_64.tar.bz2 
+ 1422  l
+ 1423  rm zotero-better-bibtex-7.0.68.xpi 
+ 1424  rm CascadiaCode.zip 
+ 1425  l
+ 1426  mv GLB0.glb 2b_bust.glb
+ 1427  mv hitem3d.glb woman_3d.glb
+ 1428  l
+ 1429  ollama
+ 1430  ollama list
+ 1431  ollama run nemotron-3-nano
+ 1432  ollama list
+ 1433  ollama ps
+ 1434  ollama stop nemotron-3-nano
+ 1435  ollama ps
+ 1436  ollama run nemotron-3-nano
+ 1437  ollama stop nemotron-3-nano
+ 1438  actapt && upgapt && cleanapt 
+ 1439  sudo shutdown -r now
+ 1440  o
+ 1441  cls
+ 1442  cls
+ 1443  cls}
+ 1444  csl
+ 1445  cls
+ 1446  fzfp
+ 1447  actapt && upgapt && cleanapt 
+ 1448  watch nvidia-smi 
+ 1449  tmux --new-session
+ 1450  tmux 
+ 1451  actapt && upgapt && cleanapt 
+ 1452  nvidia-smi 
+ 1453  cd Documents/aiwks_dotfiles/
+ 1454  l
+ 1455  cd docs/
+ 1456  cd raw
+ 1457  cd rawfiles/
+ 1458  l
+ 1459  history >> aiwks_history_090226.txt
+ 1460  l
+ 1461  cd 
+ 1462  cd Documents/
+ 1463  l
+ 1464  cd mynotes/
+ 1465  git pull -u origin main
+ 1466  git pull origin main
+ 1467  cd 
+ 1468  l
+ 1469  ffmpeg -h
+ 1470  l
+ 1471  cd Projects/
+ 1472  l
+ 1473  lt Assistant/
+ 1474  cd Assistant/
+ 1475  gst
+ 1476  python -v
+ 1477  python -V
+ 1478  cd ..
+ 1479  rm -rf Assistant/
+ 1480  openssl list -cipher -algorithms
+ 1481  openssl list -ciphers -algorithms
+ 1482  openssl list  -algorithms
+ 1483  openssl list
+ 1484  openssl list -h
+ 1485  openssl list -ciphers-algorithms
+ 1486  openssl list -cipher-algorithms
+ 1487  ip addr
+ 1488  ping 172.16.8.184
+ 1489  ssh arrusr@172.16.8.184
+ 1490  cat .bash_aliases 
+ 1491  history | grep nmap
+ 1492  l ~/Documents/aiwks_dotfiles/docs/rawfiles/
+ 1493  cat ~/Documents/aiwks_dotfiles/docs/rawfiles/aiwks_history_091225.txt 
+ 1494  nmap
+ 1495  ip addr | grep inet
+ 1496  nmap -v -sn 172.16.8.0/24 
+ 1497  nmap - script http-enum -p 80 172.16.8.0
+ 1498  nmap - script http-enum -p 80 172.16.8.184
+ 1499  nmap -script http-enum -p 80 172.16.8.184
+ 1500  nmap --top-ports 20 172.16.8.184
+ 1501  nmap -sT 172.16.8.184
+ 1502  nmap -sU 172.16.8.184
+ 1503  sudo nmap -sU 172.16.8.184
+ 1504  nmap -sT 172.16.8.184
+ 1505  nmap --top-ports 20 172.16.8.184
+ 1506  curl http://172.16.8.184:11434
+ 1507  curl http://172.16.8.184 -d '{
+ 1508    "model": "llama3.2",
+ 1509    "prompt": "¿Por qué el cielo es azul?",
+ 1510    "stream": false
+ 1511  }'
+ 1512  curl http://172.16.8.184:11434 -d '{
+ 1513    "model": "llama3.2",
+ 1514    "prompt": "¿Por qué el cielo es azul?",
+ 1515    "stream": false
+ 1516  }'
+ 1517  curl http://172.16.8.184:11434 -d '{
+ 1518    "model": "gpt-oss",
+ 1519    "prompt": "¿Por qué el cielo es azul?",
+ 1520    "stream": false
+ 1521  }'
+ 1522  curl http://172.16.8.184:11434/api/generate -d '{
+ 1523    "model": "gpt-oss",
+ 1524    "prompt": "¿Por qué el cielo es azul?",
+ 1525    "stream": false
+ 1526  }'
+ 1527  curl http://172.16.8.184:11434/api/generate -d '{
+ 1528    "model": "gpt-oss",
+ 1529    "prompt": "In a few words, what is Artificial intelligence?",
+ 1530    "stream": false
+ 1531  }'
+ 1532  curl http://172.16.8.184:11434/api/generate -d '{
+ 1533    "model": "gpt-oss",
+ 1534    "prompt": "What is the result of sum 4 plus 3?",
+ 1535    "stream": false
+ 1536  }'
+ 1537  curl http://172.16.8.184:11434/api/generate -d '{
+ 1538    "model": "gpt-oss",
+ 1539    "prompt": "Describe your capabilities",
+ 1540    "stream": false
+ 1541  }'
+ 1542  ollama
+ 1543  ros2start 
+ 1544  l
+ 1545  ros2 node list
+ 1546  ros2 topic  list
+ 1547  ros2 run demo_nodes_py listener
+ 1548  curl http://172.16.8.184:11434/api/generate -d '{
+ 1549    "model": "gpt-oss",
+ 1550    "prompt": "What is the result of sum 4 plus 3?",
+ 1551    "stream": false
+ 1552  }'
+ 1553  curl http://172.16.8.184:11434/api/generate -d '{
+ 1554    "model": "gpt-oss",
+ 1555    "prompt": "Describe your capabilities",
+ 1556    "stream": false
+ 1557  }'
+ 1558  ssh arrusr@172.16.8.184
+ 1559  ll
+ 1560  cat .bash_aliases 
+ 1561  actapt 
+ 1562  actapt && upgapt && cleanapt 
+ 1563  systemctl daemon-reload
+ 1564  sudo shutdown -r
+ 1565  l /root/
+ 1566  sudo l /root/
+ 1567  sudo ls /root/
+ 1568  sudo ls /root/.cache
+ 1569  cd Downloads/
+ 1570  l
+ 1571  ll
+ 1572  ls -ls 
+ 1573  ls -lsa
+ 1574  ls -la
+ 1575  cd Downloads/
+ 1576  l
+ 1577  mv before-i-do-nearly-anything-nowadays-i-always-check-with-my-personal-guide-usually-either-copilot-or-chatgpt-these-ai-dr.mp3 cortana_test_audio_01.mp3
+ 1578  l
+ 1579  ffplay -nodisp -autoexit cortana_test_audio_01.mp3 
+ 1580  python -V
+ 1581  python3 -V
+ 1582  l
+ 1583  mv setup-complete-you-are-now-looking-forward-to-a-pc-that-is-somewhat-not-going-to-help-you-out-good-luck-you-will-need-it.mp3 cortana_test_audio_02.mp3
+ 1584  echo "setup complete, you are now looking forward to a pc that is somewhat not going to help you out. good luck you will need it" >> cortana_test_audio_02.txt
+ 1585  l
+ 1586  cat cortana_test_audio_02.txt 
+ 1587  watch nvidia-smi 
+ 1588  lsb_release -A
+ 1589  lsb_release -a
+ 1590  cat ~/Documents/aiwks_dotfiles/docs/rawfiles/aiwks_history_021225.txt | grep nvim
+ 1591  l
+ 1592  chmod u+x audacity-linux-3.7.7-x64-22.04.AppImage 
+ 1593  l
+ 1594  sudo mkdir /opt/audacity
+ 1595  sudo mv audacity-linux-3.7.7-x64-22.04.AppImage /opt/audacity/audacity
+ 1596  audacity
+ 1597  l
+ 1598  /opt/audacity/audacity 
+ 1599  ffplay -nodisp -autoexit ../Documents/Nicky-Mondellini-fragmen-01.wav 
+ 1600  /opt/audacity/audacity 
+ 1601  l
+ 1602  vf Projects/
+ 1603  l
+ 1604  cd Projects/
+ 1605  l
+ 1606  docker image list
+ 1607  mkdir f5tts
+ 1608  cd f5tts/
+ 1609  docker build -t f5tts:v1 .
+ 1610  ffmpeg -V
+ 1611  ffmpeg -v
+ 1612  docker container run --rm -it --gpus=all --mount 'type=volume,source=f5-tts,target=/root/.cache/huggingface/hub/' -p 7860:7860 ghcr.io/swivid/f5-tts:main f5-tts_infer-gradio --host 0.0.0.0
+ 1613  sudo nvidia-ctk cdi generate --output=/etc/cdi/nvidia.yaml
+ 1614  docker container run --rm -it --runtime=nvidia --gpus=all --mount 'type=volume,source=f5-tts,target=/root/.cache/huggingface/hub/' -p 7860:7860 ghcr.io/swivid/f5-tts:main f5-tts_infer-gradio --host 0.0.0.0
+ 1615  sudo vim /etc/nvidia-container-runtime/config.toml
+ 1616  sudo nano /etc/nvidia-container-runtime/config.toml
+ 1617  docker container run --rm -it  --gpus=all --mount 'type=volume,source=f5-tts,target=/root/.cache/huggingface/hub/' -p 7860:7860 ghcr.io/swivid/f5-tts:main f5-tts_infer-gradio --host 0.0.0.0
+ 1618  cat /etc/docker/daemon.json
+ 1619  ls /etc/docker/
+ 1620  cd ..
+ 1621  git clone https://github.com/rivascf/ia-assistant.git
+ 1622  l
+ 1623  cd ia-assistant/voice_assistant/samples/
+ 1624  l
+ 1625  ffplay -h
+ 1626  ffplay -nodisp -autoexit refaudio_female.mp3 
+ 1627  cd ..
+ 1628  l
+ 1629  cd logs/
+ 1630  l
+ 1631  docker container run --rm -it  --gpus=all --mount 'type=volume,source=f5-tts,target=/root/.cache/huggingface/hub/' -p 7860:7860 ghcr.io/swivid/f5-tts:main f5-tts_infer-gradio --host 0.0.0.0
+ 1632  docker container run --rm -it --gpus=all --mount 'type=volume,source=f5-tts,target=/root/.cache/huggingface/hub/' -p 7860:7860 ghcr.io/swivid/f5-tts:main
+ 1633  history | grep uv 
+ 1634  cd ~/Projects/f5tts/
+ 1635  uv venv python=3.11
+ 1636  ll
+ 1637  source python=3.11/bin/activate
+ 1638  deactivate 
+ 1639  rm -rf python\=3.11/
+ 1640  l
+ 1641  ll
+ 1642  uv venv --python 3.11
+ 1643  source .venv/bin/activate
+ 1644  pip install torch==2.8.0+cu128 torchaudio==2.8.0+cu128 --extra-index-url https://download.pytorch.org/whl/cu128
+ 1645  pip -V
+ 1646  python -V
+ 1647  uv python list
+ 1648  pip install torch==2.8.0+cu128 torchaudio==2.8.0+cu128 --extra-index-url https://download.pytorch.org/whl/cu128
+ 1649  python -V
+ 1650  deactivate 
+ 1651  python -V
+ 1652  source .venv/bin/activate
+ 1653  uv pip install torch==2.8.0+cu128 torchaudio==2.8.0+cu128 --extra-index-url https://download.pytorch.org/whl/cu128
+ 1654  echo $UV_HTTP_TIMEOUT
+ 1655  export UV_HTTP_TIMEOUT=120
+ 1656  echo $UV_HTTP_TIMEOUT
+ 1657  uv pip install torch==2.8.0+cu128 torchaudio==2.8.0+cu128 --extra-index-url https://download.pytorch.org/whl/cu128
+ 1658  git clone https://github.com/SWivid/F5-TTS.git
+ 1659  cd F5-TTS/
+ 1660  uv pip install -e .
+ 1661  f5-tts_infer-gradio --port 7860 --host 0.0.0.0
+ 1662  git branch -l
+ 1663  f5-tts_infer-cli
+ 1664  ffplay -nodisp -autoexit tests/infer_cli_basic.wav 
+ 1665  cp ~/Downloads/cortana_test_audio_0*.mp3 ./tests/
+ 1666  l tests/
+ 1667  f5-tts_infer-cli --model F5TTS_v1_Base --ref_audio ./tests/cortana_test_audio_02.mp3 --ref_text "setup complete, you are now looking forward to a pc that is somewhat not going to help you out. good luck you will need it." --gen_text "The current disruptive innovation in civilian drone (UAV) applications has led to an increased need for research and development in UAV technology. The key challenges currently being addressed are related to UAV platform properties such as functionality, reliability, fault tolerance, and endurance, which are all tightly linked to the UAV flight controller hardware and software."
+ 1668  f5-tts_infer-cli --model F5TTS_v1_Base --ref_audio ./tests/cortana_test_audio_02.mp3 --ref_text "setup complete, you are now looking forward to a pc that is somewhat not going to help you out. good luck you will need it." --gen_text "The current disruptive innovation in civilian drone (UAV) applications has led to an increased need for research and development in UAV technology."
+ 1669  ffplay -nodisp -autoexit tests/infer_cli_basic.wav 
+ 1670  f5-tts_infer-cli --model F5TTS_v1_Base --ref_audio ./tests/cortana_test_audio_02.mp3 --ref_text "setup complete, you are now looking forward to a pc that is somewhat not going to help you out. good luck you will need it." --gen_text "The current disruptive innovation in civilian drone (UAV) applications has led to an increased need for research and development in UAV technology."
+ 1671  ffplay -nodisp -autoexit tests/infer_cli_basic.wav 
+ 1672  f5-tts_infer-cli --model F5TTS_v1_Base --ref_audio ./tests/cortana_test_audio_02.mp3 --ref_text "setup complete, you are now looking forward to a pc that is somewhat not going to help you out. good luck you will need it." --gen_text "The key challenges currently being addressed are related to UAV platform properties such as functionality, reliability, fault tolerance, and endurance, which are all tightly linked to the UAV flight controller hardware and software."
+ 1673  ffplay -nodisp -autoexit tests/infer_cli_basic.wav 
+ 1674  f5-tts_infer-cli --model F5TTS_v1_Base --ref_audio ./tests/cortana_test_audio_02.mp3 --ref_text "setup complete, you are now looking forward to a pc that is somewhat not going to help you out. good luck you will need it." --gen_text "The current disruptive innovation in civilian drone (Unmanned Aerial Vehicle, UAV) applications and the associated growth in the drone industry has led to an increased need for research and development in UAV technology."
+ 1675  ffplay -nodisp -autoexit tests/infer_cli_basic.wav 
+ 1676  cp ~/Documents/Nicky-Mondellini-fragmen-02.wav ./tests/
+ 1677  f5-tts_infer-cli --model F5TTS_v1_Base --ref_audio ./tests/Nicky-Mondellini-fragmen-02.wav --ref_text "Every journey is guided with care. Cultures connect and distances disappear." --gen_text "The current disruptive innovation in civilian drone (Unmanned Aerial Vehicle, UAV) applications and the associated growth in the drone industry has led to an increased need for research and development in UAV technology."
+ 1678  ffplay -nodisp -autoexit tests/infer_cli_basic.wav 
+ 1679  f5-tts_infer-cli --model F5TTS_v1_Base --ref_audio ./tests/cortana_test_audio_02.mp3 --ref_text "setup complete, you are now looking forward to a pc that is somewhat not going to help you out. good luck you will need it." --gen_text "The current disruptive innovation in civilian drone (Unmanned Aerial Vehicle, UAV) applications and the associated growth in the drone industry has led to an increased need for research and development in UAV technology."
+ 1680  ffplay -nodisp -autoexit tests/infer_cli_basic.wav 
+ 1681  f5-tts_infer-cli --model F5TTS_v1_Base --ref_audio ./tests/Nicky-Mondellini-fragmen-02.wav --ref_text "Every journey is guided with care. Cultures connect and distances disappear." --gen_text "The current disruptive innovation in civilian drone (Unmanned Aerial Vehicle, UAV) applications and the associated growth in the drone industry has led to an increased need for research and development in UAV technology."
+ 1682  ffplay -nodisp -autoexit tests/infer_cli_basic.wav 
+ 1683  cd Projects/
+ 1684  l
+ 1685  cd f5tts/
+ 1686  l
+ 1687  source .venv/bin/activate
+ 1688  cd F5-TTS/
+ 1689  git tag -l
+ 1690  git checkout 1.1.9
+ 1691  f5-tts_infer-cli --model F5TTS_v1_Base --ref_audio ./tests/cortana_test_audio_02.mp3 --ref_text "setup complete, you are now looking forward to a pc that is somewhat not going to help you out. good luck you will need it." --gen_text "The current disruptive innovation in civilian drone (Unmanned Aerial Vehicle, UAV) applications and the associated growth in the drone industry has led to an increased need for research and development in UAV technology."
+ 1692  git checkout 1.1.8
+ 1693  f5-tts_infer-cli --model F5TTS_v1_Base --ref_audio ./tests/cortana_test_audio_02.mp3 --ref_text "setup complete, you are now looking forward to a pc that is somewhat not going to help you out. good luck you will need it." --gen_text "The current disruptive innovation in civilian drone (Unmanned Aerial Vehicle, UAV) applications and the associated growth in the drone industry has led to an increased need for research and development in UAV technology."
+ 1694  uv pip install -e .
+ 1695  git checkout 1.1.18
+ 1696  uv pip install -e .
+ 1697  f5-tts_infer-cli --model F5TTS_v1_Base --ref_audio ./tests/cortana_test_audio_02.mp3 --ref_text "setup complete, you are now looking forward to a pc that is somewhat not going to help you out. good luck you will need it." --gen_text "The current disruptive innovation in civilian drone (Unmanned Aerial Vehicle, UAV) applications and the associated growth in the drone industry has led to an increased need for research and development in UAV technology."
+ 1698  ffplay -nodisp -autoexit tests/infer_cli_basic.wav 
+ 1699  f5-tts_infer-cli --model F5TTS_v1_Base --ref_audio ./tests/cortana_test_audio_02.mp3 --ref_text "setup complete, you are now looking forward to a pc that is somewhat not going to help you out. good luck you will need it." --gen_text "The current disruptive innovation in civilian drone (UAV) applications has led to an increased need for research and development in UAV technology. The key challenges currently being addressed are related to UAV platform properties such as functionality, reliability, fault tolerance, and endurance, which are all tightly linked to the UAV flight controller hardware and software. The lack of standardization of flight controller architectures and the use of proprietary closed-source flight controllers on many UAV platforms, however, complicates this work: solutions developed for one flight controller may be difficult to port to another without substantial extra development and testing. Using open-source flight controllers mitigates some of these challenges and enables other researchers to validate and build upon existing research."
+ 1700  cd ..
+ 1701  cd -
+ 1702  cd F
+ 1703  cd F5-TTS/
+ 1704  cd ~/Projects/ia-assistant/
+ 1705  git branch -l
+ 1706  git pull origin
+ 1707  git branch -l
+ 1708  git checkout assist-dev
+ 1709  git pull origin
+ 1710  l
+ 1711  cd voice_assistant/
+ 1712  l
+ 1713  cd samples/
+ 1714  l
+ 1715  cp * ~/Projects/f5tts/F5-TTS/tests/
+ 1716  l ~/Projects/f5tts/F5-TTS/tests/
+ 1717  cd ~/Projects/f5tts/F5-TTS/
+ 1718  l ~/Projects/f5tts/F5-TTS/tests/
+ 1719  f5-tts_infer-cli --model F5TTS_v1_Base --ref_audio ./tests/erin_female.mp3  --gen_text "The current disruptive innovation in civilian drone (Unmanned Aerial Vehicle, UAV) applications and the associated growth in the drone industry has led to an increased need for research and development in UAV technology."
+ 1720  mv ./tests/erin_female.mp3.json ./tests/erin_female.json
+ 1721  mv ./tests/viky_female.mp3.json ./tests/viky_female.json
+ 1722  mv ./tests/Nicky-Mondellini-vo-commercial-demo-V3_isolated.mp3.json ./tests/Nicky-Mondellini-fragmen-02.json
+ 1723  l ~/Projects/f5tts/F5-TTS/tests/
+ 1724  cat ./tests/erin_female.json 
+ 1725  ffplay -nodisp -autoexit tests/erin_female.mp3 
+ 1726  ffplay -nodisp -autoexit tests/viky_female.mp3 
+ 1727  cat ./tests/viky_female.json 
+ 1728  f5-tts_infer-cli --model F5TTS_v1_Base --ref_audio ./tests/viky_female.mp3 --ref_text "The way you self-analyze, I've always admired it. But at some point, you have to forgive yourself. No one can undo the past" --gen_text "The current disruptive innovation in civilian drone (Unmanned Aerial Vehicle, UAV) applications and the associated growth in the drone industry has led to an increased need for research and development in UAV technology."
+ 1729  f5-tts_infer-cli --model F5TTS_v1_Base --ref_audio ./tests/viky_female.mp3 --ref_text "The way you self-analyze, I've always admired it. But at some point, you have to forgive yourself. No one can undo the past" --gen_text "The current disruptive innovation in civilian drone (Unmanned Aerial Vehicle, UAV) applications and the associated growth in the drone industry"
+ 1730  ffplay -nodisp -autoexit tests/infer_cli_basic.wav 
+ 1731  f5-tts_infer-cli --model F5TTS_v1_Base --ref_audio ./tests/viky_female.mp3 --ref_text "The way you self-analyze, I've always admired it. But at some point, you have to forgive yourself. No one can undo the past" --gen_text "The current disruptive innovation in civilian drone (Unmanned Aerial Vehicle, UAV) applications and the associated growth in the drone industry has led to an increased need for research and development in UAV technology."
+ 1732  cat ./tests/erin_female.json 
+ 1733  f5-tts_infer-cli --model F5TTS_v1_Base --ref_audio ./tests/erin_female.mp3 --ref_text "We are on interesting ground you were remade in a lab like this the technique is supposed to be lost" --gen_text "The current disruptive innovation in civilian drone (Unmanned Aerial Vehicle, UAV) applications and the associated growth in the drone industry has led to an increased need for research and development in UAV technology."
+ 1734  ffplay -nodisp -autoexit tests/infer_cli_basic.wav 
+ 1735  deactivate
+ 1736  cd ..
+ 1737  l
+ 1738  mkdir kokoro
+ 1739  cd kokoro/
+ 1740  actapt && upgapt && cleanapt 
+ 1741  vim .config/alacritty/alacritty.toml 
+ 1742  actapt && upgapt && cleanapt 
+ 1743  sudo shutdown -r now
+ 1744  nvidia-smi 
+ 1745  actapt && upgapt && cleanapt 
+ 1746  ollama -h
+ 1747  ollama list
+ 1748  ollama run gpt-oss:latest
+ 1749  ollama stop gpt-oss:latest
+ 1750  ollama ps
+ 1751  ollama run nemotron-3-nano:latest
+ 1752  ollama list
+ 1753  ollama ps
+ 1754  htop
+ 1755  ll
+ 1756  cd ..
+ 1757  l
+ 1758  cd ..
+ 1759  ll
+ 1760  rm -rf dev_ws/
+ 1761  l
+ 1762  l dofbot_ws/src/
+ 1763  cd src
+ 1764  cd dofbot_ws/
+ 1765  l
+ 1766  colcon build
+ 1767  vim src/
+ 1768  source install/setup.bash 
+ 1769  cd dofbot_ws/
+ 1770  srcthis
+ 1771  source install/setup.bash 
+ 1772  cd dofbot_ws/
+ 1773  source install/setup.bash 
+ 1774  nvidia-smi 
+ 1775  jtop
+ 1776  l
+ 1777  tmux 
+ 1778  actapt && upgapt && cleanapt 
+ 1779  sudo apt install freecad
+ 1780  cd Downloads/
+ 1781  l
+ 1782  cd ..
+ 1783  l
+ 1784  cd Applications/
+ 1785  l
+ 1786  mkdir freecad
+ 1787  cd freecad/
+ 1788  mv ~/Downloads/FreeCAD_1.1.1-Linux-x86_64-py311.AppImage .
+ 1789  l
+ 1790  sudo chmod +x FreeCAD_1.1.1-Linux-x86_64-py311.AppImage 
+ 1791  l
+ 1792  ./FreeCAD_1.1.1-Linux-x86_64-py311.AppImage 
+ 1793  cat ~/Documents/aiwks_dotfiles/docs/rawfiles/aiwks_history_081225.txt | grep AppImage
+ 1794  cat ~/Documents/aiwks_dotfiles/docs/rawfiles/aiwks_history_081225.txt | head 320 | tail 20
+ 1795  cat ~/Documents/aiwks_dotfiles/docs/rawfiles/aiwks_history_081225.txt | head -320 | tail -20
+ 1796  cat ~/Documents/aiwks_dotfiles/docs/rawfiles/aiwks_history_081225.txt | head -310 | tail -10
+ 1797  cat ~/Documents/aiwks_dotfiles/docs/rawfiles/aiwks_history_081225.txt | head -310 | tail -20
+ 1798  l
+ 1799  sudo mkdir /opt/freecad
+ 1800  sudo mv FreeCAD_1.1.1-Linux-x86_64-py311.AppImage /opt/freecad/Freecad
+ 1801  l
+ 1802  cd..
+ 1803  cd ..
+ 1804  rmdir freecad/
+ 1805  l
+ 1806  Freecad
+ 1807  rsttrm 
+ 1808  Freecad
+ 1809  wget https://www.freecad.org/svg/logo-freecad.svg
+ 1810  sudo mv logo-freecad.svg /opt/freecad/
+ 1811  l /opt/freecad/
+ 1812  cd ~/.local/share/applications/
+ 1813  vim freecad.desktop
+ 1814  sudo nano freecad.desktop
+ 1815  sudo mv /opt/freecad/Freecad /opt/freecad/Freecad_1.1.1
+ 1816  l /opt/freecad/
+ 1817  sudo nano freecad.desktop
+ 1818  l
+ 1819  wget https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/FreeCAD-symbol.svg/120px-FreeCAD-symbol.svg.png
+ 1820  wget https://upload.wikimedia.org/wikipedia/commons/1/1a/FreeCAD-symbol.svg
+ 1821  l
+ 1822  rm 120px-FreeCAD-symbol.svg.png 
+ 1823  sudo mv FreeCAD-symbol.svg /opt/freecad/
+ 1824  l
+ 1825  l /opt/freecad/
+ 1826  sudo nano freecad.desktop
+ 1827  cd 
+ 1828  l
+ 1829  ll
+ 1830  cd .gnupg/
+ 1831  l
+ 1832  cd ~/.config/FreeCAD/
+ 1833  l
+ 1834  cd
+ 1835  l
+ 1836  l Applications/
+ 1837  l Downloads/
+ 1838  history | grep ffmpeg
+ 1839  cd Downloads/
+ 1840  ffplay cortana_test_audio_01
+ 1841  ffplay cortana_test_audio_01.mp3 
+ 1842  l
+ 1843  ffplay cortana_test_audio_02.mp3 
+ 1844  cat cortana_test_audio_02.txt 
+ 1845  l 
+ 1846  ffplay but-it-doesn-t-know-about-the-portal.mp3 
+ 1847  actapt && upgapt && cleanapt 
+ 1848  sudo shutdown -r
+ 1849  actapt && upgapt && cleanapt 
+ 1850  nvidia-smi
+ 1851  cd Documents/
+ 1852  l
+ 1853  cd mynotes/
+ 1854  git pull origin main
+ 1855  l
+ 1856  vim .
+ 1857  ollama --version
+ 1858  ollama --list
+ 1859  ollama -l
+ 1860  ollama -list
+ 1861  ollama 
+ 1862  ollama list
+ 1863  curl -fsSL https://opencode.ai/install | bash
+ 1864  l
+ 1865  cd ROS2Dev/
+ 1866  l
+ 1867  cd Robots/
+ 1868  l
+ 1869  cd dofbot/
+ 1870  l
+ 1871  cd ..
+ 1872  cd dofbot_ws/
+ 1873  l
+ 1874  cd src/
+ 1875  l
+ 1876  ollama run gemma4:latest
+ 1877  curl -fsSL https://ollama.com/install.sh | sh
+ 1878  ollama run gemma4:latest
+ 1879  curl -fsSL https://claude.ai/install.sh | bash
+ 1880  opencode --version
+ 1881  opencode
+ 1882  lsudo shutdown -r now
+ 1883  sudo shutdown -r now
+ 1884  cd ROS2Dev/dofbot_ws/
+ 1885  source install/setup.bash 
+ 1886  cd src/
+ 1887  vim
+ 1888  ollama 
+ 1889  cd ROS2Dev/dofbot_ws/src/
+ 1890  code .
+ 1891  opencode
+ 1892  opencode
+ 1893  claude 
+ 1894  cd ROS2Dev/
+ 1895  l
+ 1896  ollama list
+ 1897  ollama 
+ 1898  llama list
+ 1899  ollama list
+ 1900  ollama remove gemma4:latest
+ 1901  ollama rm gemma4:latest
+ 1902  ollama list
+ 1903  cd dofbot_ws/
+ 1904  alias
+ 1905  source install/setup.bash
+ 1906  cd src/
+ 1907  ollama 
+ 1908  ollama list
+ 1909  tmux 
+ 1910  ollama list
+ 1911  ollama serve
+ 1912  ollama ps
+ 1913  cd ROS2Dev/dofbot_ws/
+ 1914  source install/setup.bash
+ 1915  cd src 
+ 1916  ollama 
+ 1917  opencode 
+ 1918  rsttrm 
+ 1919  ollama list
+ 1920  printenv | gre OLLAMA
+ 1921  printenv | grep OLLAMA
+ 1922  alias
+ 1923  vim .bashrc
+ 1924  vim ~/.config/opencode/opencode.jsonc 
+ 1925  l
+ 1926  cd Documents/mynotes/
+ 1927  git pull origin main
+ 1928  cd
+ 1929  vim ~/.config/opencode/opencode.jsonc 
+ 1930  rsttrm 
+ 1931  opencode 
+ 1932  rsttrm 
+ 1933  opencode
+ 1934  ollama list
+ 1935  curl http://127.0.0.1:11434/api/tags
+ 1936  curl http://localhost:11434/api/tags
+ 1937  opencode
+ 1938  ip addr
+ 1939  rsttrm 
+ 1940  opencode
+ 1941  ls
+ 1942  vim .
+ 1943  opencode --port 48587
+ 1944  alias
+ 1945  ports
+ 1946  ollama serve
+ 1947  sudo systemctl stop ollama
+ 1948  ollama serve
+ 1949  vim ~/.config/opencode/opencode.jsonc 
+ 1950  ollama serve
+ 1951  ollama list
+ 1952  sudo systemctl start ollama
+ 1953  ollama serve
+ 1954  printenv | grep OLLAMA
+ 1955  vim ~/.config/opencode/opencode.jsonc 
+ 1956  tmux
+ 1957  cd ROS2Dev/dofbot_ws/src/
+ 1958  code .
+ 1959  nvtop 
+ 1960  cd ~/Documents/mynotes/
+ 1961  cat ~/.config/opencode/opencode.jsonc >> opencode_conf_guide.md
+ 1962  vim opencode_conf_guide.md
+ 1963  gst
+ 1964  git add .
+ 1965  git commit -m "Added opencode_conf_guide.md"
+ 1966  l
+ 1967  l extras/
+ 1968  mv battery-report.html extras/
+ 1969  mv dns_report_150226.txt extras/
+ 1970  mv opencode_conf_guide.md extras/
+ 1971  l
+ 1972  gst
+ 1973  git add .
+ 1974  git commit -m "Moving battery-report.html, dns_report_150225.txt and, opencode_conf_guide.md to extras/ folder"
+ 1975  git lg 
+ 1976  git push -u origin main
+ 1977  cd /media/frivas/AI\ Machine\ Erik/
+ 1978  l}
+ 1979  l
+ 1980  cd /media/frivas/
+ 1981  l
+ 1982  cd /media/frivas/aimachine/
+ 1983  l
+ 1984  mkdir -s deletme/metoo/
+ 1985  mkdir -r deletme/metoo/
+ 1986  mkdir -p deletme/metoo/
+ 1987  touch deletme/metoo/README.md
+ 1988  lty deletme/
+ 1989  lt deletme/
+ 1990  cd 
+ 1991  cd ROS2Dev/dofbot_ws/
+ 1992  source install/setup.bash
+ 1993  l
+ 1994  cd src
+ 1995  opencode
+ 1996  curl -fsSL https://herdr.dev/install.sh | sh
+ 1997  rsttrm 
+ 1998  herdr 
+ 1999  df -h
+ 2000  ollama list
+ 2001  uv --version
+ 2002  cd 
+ 2003  l
+ 2004  cd Projects/
+ 2005  l
+ 2006  cd ia-assistant/
+ 2007  l
+ 2008  l tests/
+ 2009  herdr 
+ 2010  cd  ~/Documents/
+ 2011  ffplay Nicky-Mondellini-fragmen-01.wav 
+ 2012  ffplay Nicky-Mondellini-fragmen-02.wav 
+ 2013  cd ~/Projects/ia-assistant/voice_assistant/samples/
+ 2014  ffplay erin_female.mp3 
+ 2015  ffplay viky_female.mp3 
+ 2016  history >> ~/Documents/aiwks_dotfiles/docs/rawfiles/aiwks_history_130826.txt

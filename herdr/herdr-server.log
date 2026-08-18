@@ -1,0 +1,264 @@
+2026-08-13T21:09:19.817457Z  INFO herdr::api::server: api server listening path=/home/frivas/.config/herdr/herdr.sock
+2026-08-13T21:09:19.819859Z  INFO herdr::app: using pane scrollback configuration pane_scrollback_limit_bytes=10000000
+2026-08-13T21:09:19.853646Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-08-13T21:09:19.855621Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=1 rows=24 cols=80 scrollback_limit_bytes=10000000
+2026-08-13T21:09:19.856250Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=1 pid=6852
+2026-08-13T21:09:19.856392Z  INFO herdr::logging: workspace created event="workspace.create" subsystem="workspace" outcome="ok" workspace_id="w1" pane_id=1
+2026-08-13T21:09:19.856398Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w1"
+2026-08-13T21:09:19.856408Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-08-13T21:09:19.856414Z  INFO herdr::server::headless: created startup workspace cwd=/home/frivas/ROS2Dev/dofbot_ws/src
+2026-08-13T21:09:19.856457Z  INFO herdr::server::headless: client protocol socket listening path=/home/frivas/.config/herdr/herdr-client.sock
+2026-08-13T21:09:19.856471Z  INFO herdr::server::headless: herdr server started api_socket=/home/frivas/.config/herdr/herdr.sock client_socket=/home/frivas/.config/herdr/herdr-client.sock
+2026-08-13T21:09:19.856651Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="server" outcome="started" pid=6828
+2026-08-13T21:09:20.018754Z  INFO herdr::server::headless: client connected client_id=2 cols=211 rows=50 cell_width_px=0 cell_height_px=0 render_encoding=SemanticFrame
+2026-08-13T21:09:20.025271Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="qwen"
+2026-08-13T21:09:24.858282Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/frivas/.config/herdr/session.json workspaces=1
+2026-08-13T21:09:56.119082Z  INFO herdr::logging: integration action finished event="integration.action" subsystem="integration" outcome="ok" action="install" target="claude"
+2026-08-13T21:09:56.119261Z  INFO herdr::logging: integration action finished event="integration.action" subsystem="integration" outcome="ok" action="install" target="opencode"
+2026-08-13T21:10:01.122983Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/frivas/.config/herdr/session.json workspaces=1
+2026-08-13T21:10:07.668667Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=2 rows=49 cols=185 scrollback_limit_bytes=10000000
+2026-08-13T21:10:07.671236Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=2 pid=7205
+2026-08-13T21:10:07.671653Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-08-13T21:10:16.644928Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/frivas/.config/herdr/session.json workspaces=1
+2026-08-13T21:10:21.770592Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-08-13T21:10:24.725758Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=3 rows=34 cols=185 scrollback_limit_bytes=10000000
+2026-08-13T21:10:24.728284Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=3 pid=7410
+2026-08-13T21:10:24.728683Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-08-13T21:10:34.368695Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/frivas/.config/herdr/session.json workspaces=1
+2026-08-13T21:10:47.858645Z  INFO herdr::pane: agent changed pane=3 previous_agent=None agent=Some(OpenCode) process=opencode pgid=Some(7601)
+2026-08-13T21:11:06.738230Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/frivas/.config/herdr/session.json workspaces=1
+2026-08-13T21:11:49.288626Z  INFO herdr::pane: agent changed pane=3 previous_agent=None agent=Some(OpenCode) process=opencode pgid=Some(7601)
+2026-08-13T21:11:54.289594Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/frivas/.config/herdr/session.json workspaces=1
+2026-08-13T21:15:34.545851Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-08-13T21:15:39.055184Z  INFO herdr::server::headless: client detach requested via keybind client_id=2
+2026-08-13T21:15:39.061737Z  INFO herdr::server::headless: client disconnected client_id=2
+2026-08-13T21:15:39.550155Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/frivas/.config/herdr/session.json workspaces=1
+2026-08-13T21:25:39.389692Z  INFO herdr::server::headless: client connected client_id=4 cols=211 rows=50 cell_width_px=0 cell_height_px=0 render_encoding=SemanticFrame
+2026-08-13T21:27:55.873613Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=4 rows=37 cols=93 scrollback_limit_bytes=10000000
+2026-08-13T21:27:55.876583Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=4 pid=8808
+2026-08-13T21:27:55.877078Z  INFO herdr::logging: workspace created event="workspace.create" subsystem="workspace" outcome="ok" workspace_id="w2" pane_id=4
+2026-08-13T21:27:55.877106Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w2"
+2026-08-13T21:27:55.877154Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t1"
+2026-08-13T21:28:00.880700Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/frivas/.config/herdr/session.json workspaces=2
+2026-08-13T21:28:30.015322Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w1"
+2026-08-13T21:28:30.015433Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-08-13T21:28:33.022577Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w2"
+2026-08-13T21:28:33.022692Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t1"
+2026-08-13T21:28:38.025478Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/frivas/.config/herdr/session.json workspaces=2
+2026-08-13T21:28:55.584921Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=5 rows=49 cols=185 scrollback_limit_bytes=10000000
+2026-08-13T21:28:55.588094Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=5 pid=9096
+2026-08-13T21:28:55.588538Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t1"
+2026-08-13T21:29:00.592072Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/frivas/.config/herdr/session.json workspaces=2
+2026-08-13T21:29:04.478500Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t1"
+2026-08-13T21:29:09.481101Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/frivas/.config/herdr/session.json workspaces=2
+2026-08-13T21:29:10.572454Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=6 rows=25 cols=185 scrollback_limit_bytes=10000000
+2026-08-13T21:29:10.575515Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=6 pid=9445
+2026-08-13T21:29:10.575924Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t1"
+2026-08-13T21:29:15.579509Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/frivas/.config/herdr/session.json workspaces=2
+2026-08-13T21:29:54.755913Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/frivas/.config/herdr/session.json workspaces=2
+2026-08-13T21:30:03.812901Z  INFO herdr::pane: agent changed pane=6 previous_agent=None agent=Some(OpenCode) process=opencode pgid=Some(9714)
+2026-08-13T21:30:49.189114Z  INFO herdr::pane: agent changed pane=6 previous_agent=None agent=Some(OpenCode) process=opencode pgid=Some(9714)
+2026-08-13T21:30:54.186295Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/frivas/.config/herdr/session.json workspaces=2
+2026-08-13T21:31:36.270484Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t1"
+2026-08-13T21:31:41.274001Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/frivas/.config/herdr/session.json workspaces=2
+2026-08-13T21:33:12.166070Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t1"
+2026-08-13T21:33:17.171416Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/frivas/.config/herdr/session.json workspaces=2
+2026-08-13T21:33:22.571886Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/frivas/.config/herdr/session.json workspaces=2
+2026-08-13T21:33:27.034587Z  INFO herdr::pane: agent changed pane=6 previous_agent=Some(OpenCode) agent=None pgid=Some(9445)
+2026-08-13T21:33:33.928436Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/frivas/.config/herdr/session.json workspaces=2
+2026-08-13T21:33:43.062543Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w1"
+2026-08-13T21:33:43.062617Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-08-13T21:33:48.065775Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/frivas/.config/herdr/session.json workspaces=2
+2026-08-13T21:33:51.802237Z  INFO herdr::pane: agent changed pane=3 previous_agent=Some(OpenCode) agent=None pgid=Some(7410)
+2026-08-13T21:33:56.500754Z  INFO herdr::server::headless: client detach requested via keybind client_id=4
+2026-08-13T21:33:56.501815Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/frivas/.config/herdr/session.json workspaces=2
+2026-08-13T21:33:56.507829Z  INFO herdr::server::headless: client disconnected client_id=4
+2026-08-13T21:39:19.854754Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-08-13T21:39:20.043882Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="qwen"
+2026-08-13T22:09:19.856248Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-08-13T22:09:20.037111Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="qwen"
+2026-08-13T22:27:02.813499Z  INFO herdr::server::headless: server shutdown initiated
+2026-08-13T22:27:02.863592Z  INFO herdr::server::headless: completing server shutdown
+2026-08-13T22:27:02.863813Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/frivas/.config/herdr/session.json workspaces=2
+2026-08-13T22:27:02.863827Z  INFO herdr::server::headless: headless server exiting
+2026-08-13T22:27:02.864777Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=1 status="ExitStatus { code: 1, signal: Some(\"Hangup\") }"
+2026-08-13T22:27:02.866006Z  INFO herdr::pane: pane session terminated pane=1 pid=6852 signal=Hangup
+2026-08-13T22:27:02.866978Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=2 status="ExitStatus { code: 1, signal: Some(\"Hangup\") }"
+2026-08-13T22:27:02.867909Z  INFO herdr::pane: pane session terminated pane=2 pid=7205 signal=Hangup
+2026-08-13T22:27:02.869518Z  INFO herdr::pane: pane session terminated pane=4 pid=8808 signal=Hangup
+2026-08-13T22:27:02.869568Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=4 status="ExitStatus { code: 1, signal: Some(\"Hangup\") }"
+2026-08-13T22:27:02.870638Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=6 status="ExitStatus { code: 1, signal: Some(\"Hangup\") }"
+2026-08-13T22:27:02.871072Z  INFO herdr::pane: pane session terminated pane=6 pid=9445 signal=Hangup
+2026-08-13T22:27:02.872632Z  INFO herdr::pane: pane session terminated pane=3 pid=7410 signal=Hangup
+2026-08-13T22:27:02.872639Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=3 status="ExitStatus { code: 1, signal: Some(\"Hangup\") }"
+2026-08-13T22:27:02.873637Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=5 status="ExitStatus { code: 1, signal: Some(\"Hangup\") }"
+2026-08-13T22:27:02.874164Z  INFO herdr::pane: pane session terminated pane=5 pid=9096 signal=Hangup
+2026-08-13T22:27:02.874684Z  INFO herdr::logging: herdr exiting event="app.shutdown" subsystem="server" outcome="completed" pid=6828
+2026-08-18T19:09:21.346262Z  INFO herdr::api::server: api server listening path=/home/frivas/.config/herdr/herdr.sock
+2026-08-18T19:09:21.352377Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=1 rows=24 cols=80 scrollback_limit_bytes=10000000
+2026-08-18T19:09:21.354600Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=1 pid=4421
+2026-08-18T19:09:21.355050Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=2 rows=24 cols=80 scrollback_limit_bytes=10000000
+2026-08-18T19:09:21.355587Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=2 pid=4424
+2026-08-18T19:09:21.355750Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=3 rows=24 cols=80 scrollback_limit_bytes=10000000
+2026-08-18T19:09:21.356311Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=3 pid=4427
+2026-08-18T19:09:21.357367Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=4 rows=24 cols=80 scrollback_limit_bytes=10000000
+2026-08-18T19:09:21.357892Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=4 pid=4435
+2026-08-18T19:09:21.358044Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=5 rows=24 cols=80 scrollback_limit_bytes=10000000
+2026-08-18T19:09:21.358551Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=5 pid=4443
+2026-08-18T19:09:21.358691Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=6 rows=24 cols=80 scrollback_limit_bytes=10000000
+2026-08-18T19:09:21.359235Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=6 pid=4449
+2026-08-18T19:09:21.360353Z  INFO herdr::logging: session restore evaluated event="persist.restore" subsystem="persist" outcome="ok" workspaces=2
+2026-08-18T19:09:21.360365Z  INFO herdr::app: using pane scrollback configuration pane_scrollback_limit_bytes=10000000
+2026-08-18T19:09:21.441191Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-08-18T19:09:21.447783Z  INFO herdr::server::headless: restored session already has workspaces; ignoring startup cwd cwd=/home/frivas
+2026-08-18T19:09:21.447832Z  INFO herdr::server::headless: client protocol socket listening path=/home/frivas/.config/herdr/herdr-client.sock
+2026-08-18T19:09:21.447848Z  INFO herdr::server::headless: herdr server started api_socket=/home/frivas/.config/herdr/herdr.sock client_socket=/home/frivas/.config/herdr/herdr-client.sock
+2026-08-18T19:09:21.448043Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="server" outcome="started" pid=4403
+2026-08-18T19:09:21.613614Z  INFO herdr::server::headless: client connected client_id=2 cols=191 rows=48 cell_width_px=0 cell_height_px=0 render_encoding=SemanticFrame
+2026-08-18T19:09:22.193438Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="qwen"
+2026-08-18T19:09:45.997591Z  INFO herdr::pane: agent changed pane=2 previous_agent=None agent=Some(OpenCode) process=opencode pgid=Some(5533)
+2026-08-18T19:10:35.314880Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/frivas/.config/herdr/session.json workspaces=2
+2026-08-18T19:11:27.830449Z  INFO herdr::pane: agent changed pane=2 previous_agent=None agent=Some(OpenCode) process=opencode pgid=Some(5533)
+2026-08-18T19:11:32.830879Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/frivas/.config/herdr/session.json workspaces=2
+2026-08-18T19:15:55.892863Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-08-18T19:16:00.897318Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/frivas/.config/herdr/session.json workspaces=2
+2026-08-18T19:16:12.197681Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-08-18T19:16:14.851357Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=7 rows=35 cols=84 scrollback_limit_bytes=10000000
+2026-08-18T19:16:14.853785Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=7 pid=6584
+2026-08-18T19:16:14.854302Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-08-18T19:16:19.857828Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/frivas/.config/herdr/session.json workspaces=2
+2026-08-18T19:16:20.093983Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=7 status="ExitStatus { code: 1, signal: Some(\"Hangup\") }"
+2026-08-18T19:16:20.096965Z  INFO herdr::pane: pane session terminated pane=7 pid=6584 signal=Hangup
+2026-08-18T19:16:20.097092Z  WARN herdr::app::actions: PaneDied for unknown pane pane=7
+2026-08-18T19:16:23.230611Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-08-18T19:16:26.422425Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-08-18T19:16:29.529250Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-08-18T19:16:34.531605Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/frivas/.config/herdr/session.json workspaces=2
+2026-08-18T19:16:44.831942Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-08-18T19:16:49.836200Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/frivas/.config/herdr/session.json workspaces=2
+2026-08-18T19:17:07.261206Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/frivas/.config/herdr/session.json workspaces=2
+2026-08-18T19:17:13.178924Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/frivas/.config/herdr/session.json workspaces=2
+2026-08-18T19:17:35.249034Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-08-18T19:17:40.251882Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/frivas/.config/herdr/session.json workspaces=2
+2026-08-18T19:17:45.092150Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-08-18T19:17:50.094920Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/frivas/.config/herdr/session.json workspaces=2
+2026-08-18T19:19:19.583761Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-08-18T19:19:24.587423Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/frivas/.config/herdr/session.json workspaces=2
+2026-08-18T19:19:54.674342Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-08-18T19:19:59.677625Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/frivas/.config/herdr/session.json workspaces=2
+2026-08-18T19:20:37.885191Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-08-18T19:20:42.888426Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/frivas/.config/herdr/session.json workspaces=2
+2026-08-18T19:20:45.825356Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-08-18T19:20:50.827327Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/frivas/.config/herdr/session.json workspaces=2
+2026-08-18T19:22:41.439230Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-08-18T19:22:46.442538Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/frivas/.config/herdr/session.json workspaces=2
+2026-08-18T19:22:57.071187Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-08-18T19:23:02.074734Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/frivas/.config/herdr/session.json workspaces=2
+2026-08-18T19:23:36.093576Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/frivas/.config/herdr/session.json workspaces=2
+2026-08-18T19:24:03.680972Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/frivas/.config/herdr/session.json workspaces=2
+2026-08-18T19:24:04.500922Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-08-18T19:24:09.507335Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/frivas/.config/herdr/session.json workspaces=2
+2026-08-18T19:24:54.264169Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-08-18T19:24:59.267578Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/frivas/.config/herdr/session.json workspaces=2
+2026-08-18T19:25:05.275249Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/frivas/.config/herdr/session.json workspaces=2
+2026-08-18T19:25:18.544970Z  INFO herdr::app::actions: copied selection to clipboard
+2026-08-18T19:25:26.513181Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-08-18T19:25:31.515799Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/frivas/.config/herdr/session.json workspaces=2
+2026-08-18T19:26:43.479542Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-08-18T19:26:48.483885Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/frivas/.config/herdr/session.json workspaces=2
+2026-08-18T19:26:50.115976Z  INFO herdr::app::actions: copied double-clicked token to clipboard
+2026-08-18T19:26:54.624747Z  INFO herdr::server::headless: client detach requested via keybind client_id=2
+2026-08-18T19:26:54.633172Z  INFO herdr::server::headless: client disconnected client_id=2
+2026-08-18T19:36:07.545598Z  INFO herdr::server::headless: client connected client_id=4 cols=181 rows=45 cell_width_px=0 cell_height_px=0 render_encoding=SemanticFrame
+2026-08-18T19:36:14.179021Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-08-18T19:36:19.180998Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/frivas/.config/herdr/session.json workspaces=2
+2026-08-18T19:36:23.393805Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-08-18T19:36:27.868339Z  INFO herdr::pane: agent changed pane=2 previous_agent=Some(OpenCode) agent=None pgid=Some(4424)
+2026-08-18T19:36:30.879509Z  INFO herdr::pane: agent changed pane=2 previous_agent=None agent=Some(Claude) process=claude pgid=Some(9608)
+2026-08-18T19:36:32.569076Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/frivas/.config/herdr/session.json workspaces=2
+2026-08-18T19:36:37.662281Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/frivas/.config/herdr/session.json workspaces=2
+2026-08-18T19:36:43.328982Z  INFO herdr::server::headless: client detach requested via keybind client_id=4
+2026-08-18T19:36:43.334641Z  INFO herdr::server::headless: client disconnected client_id=4
+2026-08-18T19:39:21.442934Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-08-18T19:39:21.843500Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="qwen"
+2026-08-18T19:42:51.304510Z  INFO herdr::server::headless: server shutdown initiated
+2026-08-18T19:42:51.354605Z  INFO herdr::server::headless: completing server shutdown
+2026-08-18T19:42:51.354863Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/frivas/.config/herdr/session.json workspaces=2
+2026-08-18T19:42:51.354874Z  INFO herdr::server::headless: headless server exiting
+2026-08-18T19:42:51.356091Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=2 status="ExitStatus { code: 1, signal: Some(\"Hangup\") }"
+2026-08-18T19:42:51.780134Z  INFO herdr::pane: pane session terminated pane=2 pid=4424 signal=Terminate
+2026-08-18T19:42:51.782041Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=3 status="ExitStatus { code: 1, signal: Some(\"Hangup\") }"
+2026-08-18T19:42:51.783546Z  INFO herdr::pane: pane session terminated pane=3 pid=4427 signal=Hangup
+2026-08-18T19:42:51.784590Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=4 status="ExitStatus { code: 1, signal: Some(\"Hangup\") }"
+2026-08-18T19:42:51.786797Z  INFO herdr::pane: pane session terminated pane=4 pid=4435 signal=Hangup
+2026-08-18T19:42:51.788208Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=5 status="ExitStatus { code: 1, signal: Some(\"Hangup\") }"
+2026-08-18T19:42:51.790146Z  INFO herdr::pane: pane session terminated pane=5 pid=4443 signal=Hangup
+2026-08-18T19:42:51.791666Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=6 status="ExitStatus { code: 1, signal: Some(\"Hangup\") }"
+2026-08-18T19:42:51.793294Z  INFO herdr::pane: pane session terminated pane=6 pid=4449 signal=Hangup
+2026-08-18T19:42:51.794996Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=1 status="ExitStatus { code: 1, signal: Some(\"Hangup\") }"
+2026-08-18T19:42:51.795810Z  INFO herdr::pane: pane session terminated pane=1 pid=4421 signal=Hangup
+2026-08-18T19:42:51.796801Z  INFO herdr::logging: herdr exiting event="app.shutdown" subsystem="server" outcome="completed" pid=4403
+2026-08-18T21:17:05.604809Z  INFO herdr::api::server: api server listening path=/home/frivas/.config/herdr/herdr.sock
+2026-08-18T21:17:05.611212Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=1 rows=24 cols=80 scrollback_limit_bytes=10000000
+2026-08-18T21:17:05.613274Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=1 pid=4408
+2026-08-18T21:17:05.613708Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=3 rows=24 cols=80 scrollback_limit_bytes=10000000
+2026-08-18T21:17:05.614189Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=3 pid=4411
+2026-08-18T21:17:05.614555Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=4 rows=24 cols=80 scrollback_limit_bytes=10000000
+2026-08-18T21:17:05.615064Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=4 pid=4414
+2026-08-18T21:17:05.615218Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=5 rows=24 cols=80 scrollback_limit_bytes=10000000
+2026-08-18T21:17:05.615837Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=5 pid=4419
+2026-08-18T21:17:05.616006Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=6 rows=24 cols=80 scrollback_limit_bytes=10000000
+2026-08-18T21:17:05.616552Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=6 pid=4425
+2026-08-18T21:17:05.616712Z  INFO herdr::logging: session restore evaluated event="persist.restore" subsystem="persist" outcome="ok" workspaces=2
+2026-08-18T21:17:05.616721Z  INFO herdr::app: using pane scrollback configuration pane_scrollback_limit_bytes=10000000
+2026-08-18T21:17:05.673519Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-08-18T21:17:05.675633Z  INFO herdr::server::headless: restored session already has workspaces; ignoring startup cwd cwd=/home/frivas/Projects/ia-assistant
+2026-08-18T21:17:05.676200Z  INFO herdr::server::headless: client protocol socket listening path=/home/frivas/.config/herdr/herdr-client.sock
+2026-08-18T21:17:05.676229Z  INFO herdr::server::headless: herdr server started api_socket=/home/frivas/.config/herdr/herdr.sock client_socket=/home/frivas/.config/herdr/herdr-client.sock
+2026-08-18T21:17:05.676281Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="server" outcome="started" pid=4390
+2026-08-18T21:17:05.867697Z  INFO herdr::server::headless: client connected client_id=2 cols=211 rows=50 cell_width_px=0 cell_height_px=0 render_encoding=SemanticFrame
+2026-08-18T21:17:05.887594Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=2 rows=35 cols=100 scrollback_limit_bytes=10000000
+2026-08-18T21:17:05.888456Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=2 pid=5297
+2026-08-18T21:17:05.970186Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="qwen"
+2026-08-18T21:17:06.441255Z  INFO herdr::pane: agent changed pane=2 previous_agent=None agent=Some(Claude) process=claude pgid=Some(5469)
+2026-08-18T21:17:08.550386Z  INFO herdr::pane: agent changed pane=2 previous_agent=Some(Claude) agent=None pgid=Some(5297)
+2026-08-18T21:17:13.254404Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/frivas/.config/herdr/session.json workspaces=2
+2026-08-18T21:17:22.603397Z  INFO herdr::pane: agent changed pane=2 previous_agent=None agent=Some(Claude) process=claude pgid=Some(5604)
+2026-08-18T21:17:28.205464Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/frivas/.config/herdr/session.json workspaces=2
+2026-08-18T21:17:47.308450Z  INFO herdr::pane: agent changed pane=2 previous_agent=Some(Claude) agent=None pgid=Some(5297)
+2026-08-18T21:17:52.011030Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/frivas/.config/herdr/session.json workspaces=2
+2026-08-18T21:17:53.836413Z  INFO herdr::pane: agent changed pane=2 previous_agent=None agent=Some(Claude) process=claude pgid=Some(5723)
+2026-08-18T21:17:59.277276Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/frivas/.config/herdr/session.json workspaces=2
+2026-08-18T21:18:21.126652Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w2"
+2026-08-18T21:18:21.126683Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t1"
+2026-08-18T21:18:26.131067Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/frivas/.config/herdr/session.json workspaces=2
+2026-08-18T21:18:42.964266Z  INFO herdr::pane: agent changed pane=5 previous_agent=None agent=Some(Claude) process=claude pgid=Some(5828)
+2026-08-18T21:18:52.549089Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/frivas/.config/herdr/session.json workspaces=2
+2026-08-18T21:19:52.120550Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w1"
+2026-08-18T21:19:52.120638Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-08-18T21:19:57.124658Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/frivas/.config/herdr/session.json workspaces=2
+2026-08-18T21:20:21.965830Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w2"
+2026-08-18T21:20:21.965915Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t1"
+2026-08-18T21:20:26.968742Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/frivas/.config/herdr/session.json workspaces=2
+2026-08-18T21:21:22.822826Z  INFO herdr::pane: agent changed pane=5 previous_agent=Some(Claude) agent=None pgid=Some(4419)
+2026-08-18T21:21:27.522868Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/frivas/.config/herdr/session.json workspaces=2
+2026-08-18T21:21:29.072341Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w1"
+2026-08-18T21:21:29.072412Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-08-18T21:21:34.076045Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/frivas/.config/herdr/session.json workspaces=2
+2026-08-18T21:21:36.393055Z  INFO herdr::pane: agent changed pane=2 previous_agent=Some(Claude) agent=None pgid=Some(5297)
+2026-08-18T21:21:40.875485Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w2"
+2026-08-18T21:21:40.875572Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t1"
+2026-08-18T21:21:42.305669Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w1"
+2026-08-18T21:21:42.305767Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-08-18T21:21:47.309911Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/frivas/.config/herdr/session.json workspaces=2
+2026-08-18T21:21:56.821485Z  INFO herdr::logging: workspace renamed event="workspace.rename" subsystem="workspace" outcome="ok" workspace_id="w1"
+2026-08-18T21:22:00.017428Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w2"
+2026-08-18T21:22:00.017527Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t1"
+2026-08-18T21:22:02.333384Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w1"
+2026-08-18T21:22:02.333484Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-08-18T21:22:03.807556Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-08-18T21:22:08.811017Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/frivas/.config/herdr/session.json workspaces=2
+2026-08-18T21:22:19.282903Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/frivas/.config/herdr/session.json workspaces=2
+2026-08-18T21:23:03.508211Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/frivas/.config/herdr/session.json workspaces=2
+2026-08-18T21:23:17.031662Z  INFO herdr::server::headless: client detach requested via keybind client_id=2
+2026-08-18T21:23:17.038375Z  INFO herdr::server::headless: client disconnected client_id=2

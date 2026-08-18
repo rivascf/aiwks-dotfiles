@@ -1,0 +1,40 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "model": "ollama_local/gemma4:26b",
+  "provider": {
+    "ollama_local": {
+      "npm": "@ai-sdk/openai-compatible",
+      "name": "Ollama (local)",
+      "options": {
+        "baseURL": "http://localhost:11434/v1"
+      },
+      "models": {
+        "gemma4:26b": {
+          "name": "Gemma4:26b",
+          "tool_call": true,
+          "limit": {
+            "context": 16384,
+            "output": 4096
+          }
+        }
+      }
+    },
+    "ollama_cia": {
+      "npm": "@ai-sdk/openai-compatible",
+      "name": "Ollama (CIA)",
+      "options": {
+        "baseURL": "http://172.16.8.184:11434/v1"
+      },
+      "models": {
+        "gemma4:26b": {
+          "name": "Gemma4:26b",
+          "tool_call": true,
+          "limit": {
+            "context": 16384,
+            "output": 4096
+          }
+        }
+      }
+    }
+  }
+}

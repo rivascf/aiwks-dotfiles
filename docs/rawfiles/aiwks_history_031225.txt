@@ -1,0 +1,685 @@
+    1  nvidia-smi 
+    2  sudo apt-get update -y && sudo apt update -y && sudo apt upgrade -y
+    3  sudo apt autoremove
+    4  sudo shutdown -r now
+    5  cd Downloads/
+    6  echo "1. Instalando prerequisitos: Nerdfonts, lsd, git, curl..."
+    7  sudo apt install curl git
+    8  echo "1.1. Configurando GIT..."
+    9  wget https://raw.githubusercontent.com/rivascf/jazzyvm_dotfiles/refs/heads/main/gitconfig
+   10  mv gitconfig ~/.gitconfig
+   11  nano ~/.gitconfig 
+   12  echo "1.2. Installing fonts..."
+   13  bash -c  "$(curl -fsSL https://raw.githubusercontent.com/officialrajdeepsingh/nerd-fonts-installer/main/install.sh)"
+   14  echo "1.2. Installing fonts... Done"
+   15  echo "1. Instalando prerequisitos: Nerdfonts, lsd, git, curl... Done"
+   16  echo "2. Instalando 'lsd' from 'https://github.com/lsd-rs/lsd'..."
+   17  echo "2.1. Instalando 'lsd', methode 'From source'... Installing prerequisites..."
+   18  echo "2.1.1 Instalando 'lsd', methode 'From source'... Installing prerequisites. Instalando 'RUST'..."
+   19  curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+   20  . "$HOME/.cargo/env"
+   21  rustup override set stable
+   22  rustup update stable
+   23  echo "2.1.1 Instalando 'lsd', methode 'From source'... Installing prerequisites. Instalando 'RUST'... Done"
+   24  echo "2.1.2 Instalando 'lsd', methode 'From source'... Installing prerequisites. Instalando needed libraries..."
+   25  sudo apt install -y make build-essential libssl-dev zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev llvm libncurses5-dev libncursesw5-dev xz-utils tk-dev libffi-dev liblzma-dev python3-openssl
+   26  echo "2.1.2 Instalando 'lsd', methode 'From source'... Installing prerequisites. Instalando needed libraries... Done"
+   27  echo "2.2. Instalando 'lsd', methode 'From source'... using 'cargo'..."
+   28  cargo install --git https://github.com/lsd-rs/lsd.git --branch main
+   29  mkdir -p ~/.config/lsd/
+   30  wget https://raw.githubusercontent.com/rivascf/jazzyvm_dotfiles/refs/heads/main/config/lsd/config.yaml -P ~/.config/lsd/
+   31  wget https://raw.githubusercontent.com/rivascf/jazzyvm_dotfiles/refs/heads/main/config/lsd/colors.yaml -P ~/.config/lsd/
+   32  lsd -l ~/.config/lsd/
+   33  lsd --tree ~/.config/lsd/
+   34  echo "2.2. Instalando 'lsd', methode 'From source'... using 'cargo'... Done"
+   35  echo "3. Configuring 'enchulame_el_prompt' to beautify default prompt..."
+   36  echo "3.1 Configuring 'enchulame_el_prompt' to beautify default prompt... Copying extra scripts..."
+   37  mkdir -p ~/.config/gitbash
+   38  mkdir -p ~/.config/rosmgmt
+   39  mkdir -p ~/.config/utilities
+   40  wget https://raw.githubusercontent.com/rivascf/jazzyvm_dotfiles/refs/heads/main/config/gitbash/git-completition.bash -P ~/.config/gitbash/
+   41  wget https://raw.githubusercontent.com/rivascf/jazzyvm_dotfiles/refs/heads/main/config/gitbash/git-prompt.sh -P ~/.config/gitbash/
+   42  wget https://raw.githubusercontent.com/rivascf/jazzyvm_dotfiles/refs/heads/main/config/rosmgmt/ros_mgmt.sh -P ~/.config/rosmgmt/
+   43  wget https://raw.githubusercontent.com/rivascf/jazzyvm_dotfiles/refs/heads/main/config/rosmgmt/ros_galactic_conf.bash -P ~/.config/rosmgmt/
+   44  wget https://raw.githubusercontent.com/rivascf/jazzyvm_dotfiles/refs/heads/main/config/rosmgmt/ros2_galactic_conf.bash -P ~/.config/rosmgmt/
+   45  wget https://raw.githubusercontent.com/rivascf/jazzyvm_dotfiles/refs/heads/main/config/rosmgmt/ros2_humble_conf.bash -P ~/.config/rosmgmt/
+   46  wget https://raw.githubusercontent.com/rivascf/jazzyvm_dotfiles/refs/heads/main/config/rosmgmt/ros2_jazz_conf.bash -P ~/.config/rosmgmt/
+   47  wget https://raw.githubusercontent.com/rivascf/jazzyvm_dotfiles/refs/heads/main/config/rosmgmt/ros_noetic_conf.bash -P ~/.config/rosmgmt/
+   48  wget https://raw.githubusercontent.com/rivascf/jazzyvm_dotfiles/refs/heads/main/config/utilities/venv_prompt.sh -P ~/.config/utilities/
+   49  lsd --tree  ~/.config/
+   50  echo "3.1 Configuring 'enchulame_el_prompt' to beautify default prompt... Copying extra scripts... Done"
+   51  echo "3.2 Configuring 'enchulame_el_prompt' to beautify default prompt... Replacing current bashrc..."
+   52  mv ~/.bashrc ~/.bashrc_old
+   53  wget https://raw.githubusercontent.com/rivascf/jazzyvm_dotfiles/refs/heads/main/bashrc
+   54  mv bashrc ~/.bashrc
+   55  nano ~/.bashrc
+   56  exec $SHELL
+   57  echo "3.2 Configuring 'enchulame_el_prompt' to beautify default prompt... Replacing current bashrc... Done"
+   58  echo "3. Configuring 'enchulame_el_prompt' to beautify default prompt... Done"
+   59  echo "4. Instalando pyenv, from blog medium post 'https://medium.com/@aashari/easy-to-follow-guide-of-how-to-install-pyenv-on-ubuntu-a3730af8d7f0'..."
+   60  echo "4.1 Step 1 (Optional): Install Required Dependencies..."
+   61  sudo apt install -y make build-essential libssl-dev zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev  llvm libncursesw5-dev xz-utils tk-dev libxml2-dev libxmlsec1-dev libffi-dev liblzma-dev
+   62  echo "4.1 Step 1 (Optional): Install Required Dependencies... Done"
+   63  echo "4.2 Step 2: Installing PyENV..."
+   64  curl https://pyenv.run | bash
+   65  echo "4.2 Step 2: Installing PyENV... Done"
+   66  echo "4.3 Step 3: Setting Up Environment Variables..."
+   67  nano ~/.bashrc
+   68  exec $SHELL
+   69  echo "4.3 Step 3: Setting Up Environment Variables... Done"
+   70  echo "4.4 Step 4: Testing PyENV Installation..."
+   71  pyenv --version
+   72  pyenv install --list | grep "3."
+   73  pyenv install 3.6
+   74  pyenv install 3.8
+   75  pyenv install 3.10
+   76  pyenv install 3.11
+   77  python3 -V
+   78  pyenv versions
+   79  pyenv install 3.12
+   80  echo "4.4 Step 4: Testing PyENV Installation... Done"
+   81  echo "4. Instalando pyenv, from blog medium post 'https://medium.com/@aashari/easy-to-follow-guide-of-how-to-install-pyenv-on-ubuntu-a3730af8d7f0'... Done"
+   82  echo "5. Installing Node.js and npm using NVM (Node Version Manager)..."
+   83  curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash
+   84  nano ~/.bashrc
+   85  exec $SHELL
+   86  nvm -v
+   87  nvm install -h
+   88  nvm ls-remote --lts
+   89  nvm install --lts=krypton
+   90  echo "5. Installing Node.js and npm using NVM (Node Version Manager)... Done"
+   91  echo "6. Installing Nvim (Neovim)... From AppImage ('universal' Linux package)..."
+   92  echo "6.1 Installing Nvim (Neovim)... From AppImage ('universal' Linux package)... Prerequisites..."
+   93  sudo apt install libfuse2
+   94  echo "6.1 Installing Nvim (Neovim)... From AppImage ('universal' Linux package)... Prerequisites... Done"
+   95  echo "6.2 Installing Nvim (Neovim)... From AppImage ('universal' Linux package)... App..."
+   96  curl -LO https://github.com/neovim/neovim/releases/latest/download/nvim-linux-x86_64.appimage
+   97  chmod u+x nvim-linux-x86_64.appimage 
+   98  sudo mkdir /opt/nvim
+   99  sudo mv nvim-linux-x86_64.appimage /opt/nvim/nvim
+  100  nvim
+  101  nano ~/.bashrc
+  102  exec $SHELL
+  103  nvim
+  104  echo "6.2 Installing Nvim (Neovim)... From AppImage ('universal' Linux package)... App... Done"
+  105  echo "6.3 Installing Nvim (Neovim)... From AppImage ('universal' Linux package)... Configuring nvim from my dotfiles..."
+  106  git clone https://github.com/rivascf/jazzyvm_dotfiles.git
+  107  cd jazzyvm_dotfiles/config/
+  108  mv nvim/ ~/.config/
+  109  l ~/.config/nvim/
+  110  echo "6.3 Installing Nvim (Neovim)... From AppImage ('universal' Linux package)... Configuring nvim from my dotfiles... Done"
+  111  echo "6.4 Installing Nvim (Neovim)... From AppImage ('universal' Linux package)... Installing extras from checkhealt errors/warnings..."
+  112  cd ../..
+  113  npm install -g neovim
+  114  sudo apt install ripgrep
+  115  rg --version
+  116  sudo apt install fd-find
+  117  mkdir -p ~/.local/bin/
+  118  ln -s $(which fdfind) ~/.local/bin/fd
+  119  exec $SHELL
+  120  l
+  121  fd -V
+  122  curl -L -R -O https://www.lua.org/ftp/lua-5.1.5.tar.gz
+  123  sudo apt install cmake
+  124  cmake --versions
+  125  cmake --version
+  126  tar zxpf lua-5.1.5.tar.gz 
+  127  cd lua-5.1.5/
+  128  sudo make linux install
+  129  lua
+  130  cd ..
+  131  wget https://luarocks.github.io/luarocks/releases/luarocks-3.12.2.tar.gz
+  132  tar zxpf luarocks-3.12.2.tar.gz 
+  133  cd luarocks-3.12.2/
+  134  ./configure && make && sudo make install
+  135  sudo luarocks install luasocket
+  136  sudo apt install python3-pip
+  137  pip3 install --user pylint neovim black
+  138  cd 
+  139  ll
+  140  l .local/
+  141  mkdir -p ~/.local/venvs
+  142  cd ~/.local/venvs/
+  143  pyenv virtualenv 3.12 neovim
+  144  l
+  145  ll
+  146  cd 
+  147  ll
+  148  cd -
+  149  l
+  150  cd ..
+  151  l
+  152  cd ..
+  153  cd
+  154  l
+  155  pyenv activate neovim
+  156  pip install pylint neovim black
+  157  pyenv which python
+  158  pip install flake8
+  159  pyenv which flake8
+  160  ln -s `pyenv which flake8` ~/bin/flake8 
+  161  nvim
+  162  nvim ~/.config/nvim/
+  163  deactivate
+  164  nvim ~/.config/nvim/
+  165  l
+  166  deactivate
+  167  pyenv deactivate neovim
+  168  nvim ~/.config/nvim/
+  169  l
+  170  vim ~/.config/lsd/colors.yaml 
+  171  nvim ~/.config/lsd/colors.yaml 
+  172  cargo install --locked tree-sitter-cli
+  173  tree-sitter generate
+  174  nvim ~/.config/nvim/
+  175  echo "6.4 Installing Nvim (Neovim)... From AppImage ('universal' Linux package)... Installing extras from checkhealt errors/warnings... Done"
+  176  echo "6. Installing Nvim (Neovim)... From AppImage ('universal' Linux package)... Done"
+  177  echo "7. Getting aliases file"
+  178  wget https://raw.githubusercontent.com/rivascf/jazzyvm_dotfiles/refs/heads/main/bash_aliases
+  179  mv bash_aliases .bash_aliases 
+  180  exec $SHELL
+  181  chkdsksp 
+  182  vim ~/.bash_aliases 
+  183  rsttrm 
+  184  source /opt/ros/jazzy/setup.bash
+  185  ros2 node list
+  186  ros2 run demo_nodes_py listener
+  187  l
+  188  echo "8. Installing ROS2 Jazzy..."
+  189  locale
+  190  sudo apt install software-properties-common
+  191  sudo add-apt-repository universe
+  192  sudo apt update
+  193  export ROS_APT_SOURCE_VERSION=$(curl -s https://api.github.com/repos/ros-infrastructure/ros-apt-source/releases/latest | grep -F "tag_name" | awk -F\" '{print $4}')
+  194  curl -L -o /tmp/ros2-apt-source.deb "https://github.com/ros-infrastructure/ros-apt-source/releases/download/${ROS_APT_SOURCE_VERSION}/ros2-apt-source_${ROS_APT_SOURCE_VERSION}.$(. /etc/os-release && echo ${UBUNTU_CODENAME:-${VERSION_CODENAME}})_all.deb"
+  195  sudo dpkg -i /tmp/ros2-apt-source.deb
+  196  sudo apt update && sudo apt install ros-dev-tools
+  197  sudo apt install ros-jazzy-desktop
+  198  source /opt/ros/jazzy/setup.bash
+  199  ros2 pkg list | grep demo
+  200  ros2 run demo_nodes_cpp talker
+  201  echo "8. Installing ROS2 Jazzy... Done"
+  202  echo "9. Installing nettools and nmap..."
+  203  sudo apt install net-tools nmap
+  204  ip addr
+  205  nmap -v -sn 192.168.1.0/24 |grep "scan report"|grep --invert-match "host.down"|awk '{print $5}'
+  206  echo "9. Installing nettools and nmap... Done"
+  207  echo "10. Installing docker..."
+  208  sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg -o /etc/apt/keyrings/docker.asc
+  209  sudo chmod a+r /etc/apt/keyrings/docker.asc
+  210  sudo install -m 0755 -d /etc/apt/keyrings
+  211  sudo tee /etc/apt/sources.list.d/docker.sources <<EOF
+  212  Types: deb
+  213  URIs: https://download.docker.com/linux/ubuntu
+  214  Suites: $(. /etc/os-release && echo "${UBUNTU_CODENAME:-$VERSION_CODENAME}")
+  215  Components: stable
+  216  Signed-By: /etc/apt/keyrings/docker.asc
+  217  EOF
+  218  sudo apt update
+  219  sudo apt install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+  220  sudo systemctl status docker
+  221  sudo docker run hello-world
+  222  sudo docker images list
+  223  sudo docker image list
+  224  sudo docker image rm hello-world:latest
+  225  sudo docker image rm hello-world:latest --force
+  226  sudo docker image list
+  227  groups
+  228  sudo groups 
+  229  sudo groupadd docker
+  230  sudo usermod -aG docker $USER
+  231  sudo shutdown -r now
+  232  docker run hello-world
+  233  docker container list
+  234  docker ps
+  235  docker image list
+  236  docker image rm hello-world --force
+  237  docker image rm hello-world:latest --force
+  238  docker image list
+  239  echo "10. Installing docker... Done"
+  240  dpkg list
+  241  dpkg -l
+  242  apt list --installed | grep nvidia
+  243  echo "11. Installing extra tools: Gogle Chrome, VSCode, Jupyter..."
+  244  cd Downloads/
+  245  l
+  246  sudo dpkg -i google-chrome-stable_current_amd64.deb 
+  247  sudo dpkg -i code_1.106.2-1763572306_amd64.deb 
+  248  history | grep pyenv | virtualenv
+  249  history | grep pyenv | grep virtualenv
+  250  pyenv virtualenv 3.12 jupyter_env
+  251  history | grep pyenv | grep activate
+  252  pyenv activate jupyter_env
+  253  pip install jupyterlab
+  254  python -m pip install --upgrade pip
+  255  pyenv deactivate jupyter_env
+  256  l
+  257  l ../
+  258  l
+  259  watch -n 1 nvidia-smi
+  260  l
+  261  sudo apt upgrade -y 
+  262  l
+  263  mkdir ROS2Dev
+  264  mkdir Projects
+  265  cd Projects/
+  266  code .
+  267  fc-list | grep Sauce | grep Mono
+  268  fc-list | grep "Nerd Font" | grep Mono
+  269  pyenv activate jupyter_env
+  270  jupyter lab
+  271  l
+  272  rm Untitled.ipynb 
+  273  jupyter-lab --generate-config
+  274  vim /home/frivas/.jupyter/jupyter_lab_config.py
+  275  jupyter-lab password
+  276  cat /home/frivas/.jupyter/jupyter_server_config.json
+  277  vim /home/frivas/.jupyter/jupyter_lab_config.py
+  278  pyenv deactivate jupyter_env
+  279  mkdir notebooks
+  280  cd notebooks/
+  281  pwd
+  282  vim /home/frivas/.jupyter/jupyter_lab_config.py
+  283  which jupyter
+  284  /home/frivas/.pyenv/shims/jupyter lab
+  285  /home/frivas/.pyenv/versions/jupyter_env/bin/jupyter lab
+  286  cd
+  287  echo "11. Installing extra tools: Gogle Chrome, VSCode, Jupyter... Done, Jupyter config pend."
+  288  echo "12. Installing ollama..."
+  289  curl -fsSL https://ollama.com/install.sh | sh
+  290  ollama ps
+  291  ollama run gpt-oss
+  292  echo "12. Installing ollama... Done"
+  293  chkdsksp 
+  294  actapt && upgapt && cleanapt 
+  295  sudo shutdown -r now
+  296  snap
+  297  l
+  298  cd Downloads/
+  299  l
+  300  chmod u+x Obsidian-1.10.6.AppImage 
+  301  sudo mkdir /opt/obsidian
+  302  sudo mv Obsidian-1.10.6.AppImage /opt/obsidian/Obsidian
+  303  vim ~/.bashrc
+  304  rsttrm 
+  305  l Documents/
+  306  l
+  307  l Projects/
+  308  l Templates/
+  309  mkdir -p ~/Documents/aiwks_dotfiles/docs/rawfiles
+  310  fc -ln
+  311  history | awk '{$1=""; print}'
+  312  $(history | awk '{$1=""; print}') >> ~/Documents/aiwks_dotfiles/docs/rawfiles/aiwks_history_021225.txt
+  313  cat ~/Documents/aiwks_dotfiles/docs/rawfiles/aiwks_history_021225.txt
+  314  c ~/Documents/aiwks_dotfiles/docs/rawfiles/
+  315  cd ~/Documents/aiwks_dotfiles/docs/rawfiles/
+  316  l
+  317  cat aiwks_history_021225.txt 
+  318  rm aiwks_history_021225.txt 
+  319  cd
+  320  history >>  ~/Documents/aiwks_dotfiles/docs/rawfiles/aiwks_history_021225.txt
+  321  cat ~/Documents/aiwks_dotfiles/docs/rawfiles/aiwks_history_021225.txt
+  322  cd Downloads/
+  323  l
+  324  sudo mv obsidian-icon.* /opt/obsidian/
+  325  cd Documents/
+  326  l
+  327  touch personal_keys
+  328  mv personal_keys personal_keys.md
+  329  vim personal_keys.md 
+  330  l
+  331  Obsidian
+  332  Obsidian --no-sandbox
+  333  cd /usr/share/
+  334  l
+  335  cd applications
+  336  l
+  337  sudo touch obsidian.desktop
+  338  nano obsidian.desktop 
+  339  sudo nano obsidian.desktop 
+  340  cd
+  341  cd Documents/
+  342  mkdir Obsidian
+  343  cd Obsidian/
+  344  git clone https://github.com/rivascf/pkm_vault.git
+  345  mv ~/Downloads/mynotes-main.zip ../
+  346  mv ~/Downloads/pkm_vault-main.zip .
+  347  l
+  348  unzip pkm_vault-main.zip 
+  349  l
+  350  mv pkm_vault-main/ pkm_vault
+  351  l
+  352  rm pkm_vault-main.zip 
+  353  l
+  354  cd
+  355  ssh-keygen -t ed25519 -C "rivascf@gmail.com"
+  356  l .ssh/
+  357  l .ssh/authorized_keys 
+  358  l
+  359  ll
+  360  find -name rivascf_ed25519
+  361  cd .ssh/
+  362  l
+  363  cd ..
+  364  ssh-keygen -t ed25519 -C "rivascf@gmail.com"
+  365  l .ssh/
+  366  ssh-keygen -t ed25519 -C "rivascf@gmail.com"
+  367  l
+  368  mv ghid_ed25519* .ssh/
+  369  l .ssh/
+  370  cd .ssh/
+  371  rm id_ed25519*
+  372  l
+  373  cat ghid_ed25519.pub 
+  374  eval "$(ssh-agent -s)"
+  375  ssh-add ~/.ssh/ghid_ed25519
+  376  ssh -T git@github.com
+  377  cd ~/Downloads/
+  378  l
+  379  rm -rf jazzyvm_dotfiles/
+  380  l
+  381  rm google-chrome-stable_current_amd64.deb code_1.106.2-1763572306_amd64.deb RobotoMono.zip SourceCodePro.zip Ubuntu.zip UbuntuMono.zip 
+  382  l
+  383  rm lua-5.1.5.tar.gz 
+  384  rm luarocks-3.12.2.tar.gz 
+  385  l
+  386  cd ~/Documents/
+  387  l
+  388  git@github.com:rivascf/mynotes.git
+  389  git clone git@github.com:rivascf/mynotes.git
+  390  l
+  391  rm mynotes-main.zip 
+  392  l
+  393  tmux
+  394  cd 
+  395  l
+  396  cd ~/Documents/
+  397  l
+  398  . ~/.ssh/
+  399  l ~/.ssh/
+  400  cd ..
+  401  nvim ~/Documents/
+  402  git lfs
+  403  git lfs install
+  404  echo "Installing GIT LFS"
+  405  curl -s https://packagecloud.io/install/repositories/github/git-lfs/script.deb.sh | sudo bash
+  406  git lfs install
+  407  lfs
+  408  sudo apt install git-lfs
+  409  git lfs install
+  410  git lfs --version
+  411  echo $PATH
+  412  tar -C /usr/local -xzf ~/Downloads/go1.25.5.linux-amd64.tar.gz 
+  413  sudo tar -C /usr/local -xzf ~/Downloads/go1.25.5.linux-amd64.tar.gz 
+  414  l /usr/local/
+  415  vim .bashrc
+  416  rsttrm 
+  417  go version
+  418  vim
+  419  echo "Installing Julia"
+  420  curl -fsSL https://install.julialang.org | sh
+  421  vim ~/.bashrc
+  422  rsttrm 
+  423  pwd
+  424  pyenv activate neovim 
+  425  pip intall pylint
+  426  pip install pylint
+  427  python -m pip install --upgrade pip
+  428  pip install pylint
+  429  pip install pylint-venv
+  430  cd ..
+  431  find . -name "pylintrc"
+  432  find . -name ".pylintrc"
+  433  find ~ -name ".pylintrc"
+  434  find . -iname "pylintrc"
+  435  locate pylintrc
+  436  deactivate
+  437  cd 3.12.12/envs/neovim/
+  438  deactivate
+  439  l
+  440  cd
+  441  pyenv deactivate neovim
+  442  julia --version
+  443  echo "Installing typescript"
+  444  npm install typescript --save-dev
+  445  tsc-v
+  446  tsc -v
+  447  vim
+  448  cd .pyenv/versions/neovim
+  449  l
+  450  cd bin
+  451  l
+  452  vim ~/.config/nvim/
+  453  cd
+  454  vim
+  455  cd 
+  456  mkdir -p ~/.config/alacritty
+  457  touch ~/.config/alacritty/alacritty.toml
+  458  vim ~/.config/alacritty/alacritty.toml
+  459  cd ~/.config/alacritty/
+  460  vim .
+  461  l
+  462  vim ~/.config/alacritty/alacritty.toml
+  463  l
+  464  vim ~/.config/alacritty/alacritty.toml
+  465  lt ~/Documents/mynotes/
+  466  vim ~/.config/alacritty/alacritty.toml
+  467  cd Downloads/
+  468  git clone https://github.com/alacritty/alacritty.git
+  469  cd alacritty/
+  470  echo "Installing alacritty"
+  471  sudo apt install cmake g++ pkg-config libfontconfig1-dev libxcb-xfixes0-dev libxkbcommon-dev python3
+  472  cargo build --release
+  473  infocmp alacritty
+  474  l
+  475  cd alacritty
+  476  l
+  477  cd..
+  478  cd ..
+  479  cd alacritty_terminal/
+  480  l
+  481  cd ..
+  482  l
+  483  cd target/
+  484  l
+  485  cd release/
+  486  l
+  487  cd ..
+  488  rustup target add x86_64-apple-darwin aarch64-apple-darwin
+  489  make app-universal
+  490  cd ..
+  491  cargo install alacritty
+  492  alacritty
+  493  cd alacritty/
+  494  l
+  495  cd extra/
+  496  l
+  497  cd logo
+  498  l
+  499  cd ..
+  500  git clone https://github.com/dfl0/mac-icons.git
+  501  l
+  502  l ~/.cargo/bin/
+  503  cd alacritty/
+  504  l
+  505  cd alacritty_terminal/
+  506  l
+  507  cd -
+  508  cd target/release/
+  509  l
+  510  alacritty 
+  511  cargo uninstall alacritty
+  512  infocmp alacritty
+  513  history | grep "mkdir /opt/*"
+  514  history | tail -250
+  515  sudo tic -xe alacritty,alacritty-direct extra/alacritty.info
+  516  l
+  517  cd ..
+  518  l
+  519  sudo tic -xe alacritty,alacritty-direct extra/alacritty.info
+  520  infocmp alacritty
+  521  sudo cp target/release/alacritty /usr/local/bin
+  522  sudo cp ../mac-icons/alacritty/icons/flat_mono/alacritty_flat_mono_full.png /usr/share/pixmaps/Alacritty.png
+  523  cp extra/linux/Alacritty.desktop extra/linux/Alacritty.desktop.bk 
+  524  vim extra/linux/Alacritty.desktop
+  525  sudo desktop-file-install extra/linux/Alacritty.desktop
+  526  sudo update-desktop-database
+  527  sudo mkdir -p /usr/local/share/man/man1
+  528  sudo mkdir -p /usr/local/share/man/man5
+  529  scdoc < extra/man/alacritty.1.scd | gzip -c | sudo tee /usr/local/share/man/man1/alacritty.1.gz > /dev/null
+  530  sudo apt install scdoc
+  531  scdoc < extra/man/alacritty.1.scd | gzip -c | sudo tee /usr/local/share/man/man1/alacritty.1.gz > /dev/null
+  532  scdoc < extra/man/alacritty-msg.1.scd | gzip -c | sudo tee /usr/local/share/man/man1/alacritty-msg.1.gz > /dev/null
+  533  scdoc < extra/man/alacritty.5.scd | gzip -c | sudo tee /usr/local/share/man/man5/alacritty.5.gz > /dev/null
+  534  scdoc < extra/man/alacritty-bindings.5.scd | gzip -c | sudo tee /usr/local/share/man/man5/alacritty-bindings.5.gz > /dev/null
+  535  mkdir -p ~/.bash_completion
+  536  cp extra/completions/alacritty.bash ~/.bash_completion/alacritty
+  537  vim ~/.bashrc
+  538  l ~/.bash_completion/
+  539  alacritty
+  540  cd ..
+  541  git clone https://github.com/alacritty/alacritty-theme.git
+  542  mkdir -p ~/.config/alacritty/themes
+  543  cp alacritty-theme/themes/nord* ~/.config/alacritty/themes/
+  544  cp alacritty-theme/themes/one_dark.toml ~/.config/alacritty/themes/
+  545  l ~/.config/alacritty/themes/
+  546  fc-list | grep "Sauce"
+  547  fc-list | grep "Roboto"
+  548  echo "Installing alacritty and configuration... Done"
+  549  echo "Changing pyenv for uv..."
+  550  cd
+  551  vim .bashrc
+  552  systemctl status jupyter
+  553  systemctl list
+  554  systemctl 
+  555  history | grep "jupyter"
+  556  systemctl status jupyter
+  557  systemctl list-units --type=service --state=running
+  558  echo "Changing pyenv for uv... Changing/deleting venvs"
+  559  pyenv virtualenv list
+  560  pyenv list
+  561  pyenv versions
+  562  pyenv virtualenvs
+  563  pyenv virtualenv-delete neovim
+  564  pyenv virtualenv-delete jupyter_env 
+  565  l
+  566  ll
+  567  pyenv virtualenvs
+  568  echo "Remove pyenv versions and configuration"
+  569  rm -rf ~/.pyenv/
+  570  rsttrm 
+  571  l
+  572  uv add --dev ipykernel
+  573  l
+  574  ll
+  575  cd .venv/
+  576  l
+  577  cd bin/
+  578  l
+  579  pwd
+  580  l
+  581  deactivate
+  582  uv tool install --upgrade pynvim
+  583  cd
+  584  pyenv
+  585  uv python list
+  586  python -V
+  587  python3.14 -V
+  588  uv python install 3.11
+  589  uv python install 3.12
+  590  uv python install 3.10
+  591  uv python list
+  592  l
+  593  mkdir -p Applications
+  594  l
+  595  cd Applications/
+  596  uv python install --default --preview 3.11
+  597  python -V
+  598  python3 -V
+  599  uv python install --preview 3.10 3.12
+  600  source /opt/ros/jazzy/setup.bash
+  601  ros2 run demo_nodes_py talker
+  602  uv run --with jupyter jupyter lab
+  603  l
+  604  uv run --with jupyter jupyter lab
+  605  vim ~/.bash_aliases 
+  606  vim ~/.config/nvim/
+  607  vim ~/.bash_aliases 
+  608  vim ~/.config/nvim/
+  609  vim ~/.config/nvim/
+  610  mkdir neovim_venv
+  611  cd neovim_venv/
+  612  uv init
+  613  uv add black neovim pylint
+  614  l
+  615  nvim
+  616  vim ~/.config/nvim/
+  617  uv add pynvim
+  618  vim ~/.config/nvim/
+  619  uv venv
+  620  source .venv/bin/activate
+  621  deactivate
+  622  l
+  623  cat uv.lock 
+  624  l
+  625  cd ..
+  626  rm -rf neovim_venv/
+  627  mkdir nvim_venv
+  628  cd 
+  629  cd -
+  630  cd nvim_venv/
+  631  python -v 
+  632  python -V
+  633  pip install --list
+  634  pip list 
+  635  uv venv
+  636  ll
+  637  rm .venv/
+  638  rm -rf .venv/
+  639  uv venv --python 3.11
+  640  source .venv/bin/activate
+  641  pip install pynvim pylint black 
+  642  uv add pynvim pylint black 
+  643  python -v
+  644  python -V
+  645  pip lit
+  646  pip list
+  647  deactivate
+  648  uv init
+  649  l
+  650  rm -rf .git
+  651  rm README.md main.py 
+  652  l
+  653  uv add pynvim pylint black 
+  654  source .venv/bin/activate
+  655  pip list
+  656  l .venv/bin/
+  657  cd .venv/bin/
+  658  pwd
+  659  vim ~/.config/nvim/
+  660  deactivate
+  661  vim ~/.config/nvim/
+  662  cd
+  663  l
+  664  cd Applications/
+  665  l
+  666  cd ..
+  667  vim ~/.config/nvim/
+  668  cd ROS2Dev/
+  669  l
+  670  mkdir -p dofbot_ws/src
+  671  source /opt/ros/jazzy/setup.bash
+  672  cd dofbot_ws/
+  673  colcon build
+  674  l
+  675  source install/setup.bash
+  676  l
+  677  cd src
+  678  ros2 pkg create dofbot_ctrl --build-type ament_python --dependencies rclpy --maintainer-name "Felipe Rivas" --maintainer-email rivascf@gmail.com --license MIT --description "Yahboom Dofbot Control package."
+  679  vim .
+  680  cd
+  681  vim .bashrc
+  682  rsttrm 
+  683  cd Documents/mynotes/
+  684  git pull origin main
+  685  history >> ~/Documents/aiwks_dotfiles/docs/rawfiles/aiwks_history_031225.txt 

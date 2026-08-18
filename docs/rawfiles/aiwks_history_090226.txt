@@ -1,0 +1,1000 @@
+  581  deactivate
+  582  uv tool install --upgrade pynvim
+  583  cd
+  584  pyenv
+  585  uv python list
+  586  python -V
+  587  python3.14 -V
+  588  uv python install 3.11
+  589  uv python install 3.12
+  590  uv python install 3.10
+  591  uv python list
+  592  l
+  593  mkdir -p Applications
+  594  l
+  595  cd Applications/
+  596  uv python install --default --preview 3.11
+  597  python -V
+  598  python3 -V
+  599  uv python install --preview 3.10 3.12
+  600  source /opt/ros/jazzy/setup.bash
+  601  ros2 run demo_nodes_py talker
+  602  uv run --with jupyter jupyter lab
+  603  l
+  604  uv run --with jupyter jupyter lab
+  605  vim ~/.bash_aliases 
+  606  vim ~/.config/nvim/
+  607  vim ~/.bash_aliases 
+  608  vim ~/.config/nvim/
+  609  vim ~/.config/nvim/
+  610  mkdir neovim_venv
+  611  cd neovim_venv/
+  612  uv init
+  613  uv add black neovim pylint
+  614  l
+  615  nvim
+  616  vim ~/.config/nvim/
+  617  uv add pynvim
+  618  vim ~/.config/nvim/
+  619  uv venv
+  620  source .venv/bin/activate
+  621  deactivate
+  622  l
+  623  cat uv.lock 
+  624  l
+  625  cd ..
+  626  rm -rf neovim_venv/
+  627  mkdir nvim_venv
+  628  cd 
+  629  cd -
+  630  cd nvim_venv/
+  631  python -v 
+  632  python -V
+  633  pip install --list
+  634  pip list 
+  635  uv venv
+  636  ll
+  637  rm .venv/
+  638  rm -rf .venv/
+  639  uv venv --python 3.11
+  640  source .venv/bin/activate
+  641  pip install pynvim pylint black 
+  642  uv add pynvim pylint black 
+  643  python -v
+  644  python -V
+  645  pip lit
+  646  pip list
+  647  deactivate
+  648  uv init
+  649  l
+  650  rm -rf .git
+  651  rm README.md main.py 
+  652  l
+  653  uv add pynvim pylint black 
+  654  source .venv/bin/activate
+  655  pip list
+  656  l .venv/bin/
+  657  cd .venv/bin/
+  658  pwd
+  659  vim ~/.config/nvim/
+  660  deactivate
+  661  vim ~/.config/nvim/
+  662  cd
+  663  l
+  664  cd Applications/
+  665  l
+  666  cd ..
+  667  vim ~/.config/nvim/
+  668  cd ROS2Dev/
+  669  l
+  670  mkdir -p dofbot_ws/src
+  671  source /opt/ros/jazzy/setup.bash
+  672  cd dofbot_ws/
+  673  colcon build
+  674  l
+  675  source install/setup.bash
+  676  l
+  677  cd src
+  678  ros2 pkg create dofbot_ctrl --build-type ament_python --dependencies rclpy --maintainer-name "Felipe Rivas" --maintainer-email rivascf@gmail.com --license MIT --description "Yahboom Dofbot Control package."
+  679  vim .
+  680  cd
+  681  vim .bashrc
+  682  rsttrm 
+  683  cd Documents/mynotes/
+  684  git pull origin main
+  685  history >> ~/Documents/aiwks_dotfiles/docs/rawfiles/aiwks_history_031225.txt 
+  686  l ~/Documents/aiwks_dotfiles/docs/rawfiles/
+  687  l
+  688  history 
+  689  l /usr/local
+  690  actapt && upgapt && cleanapt 
+  691  sudo apt install tmux
+  692  tmux
+  693  tmux list
+  694  cd ROS2Dev/dofbot_ws/src/
+  695  git init
+  696  gst
+  697  cd ..
+  698  rm -rf dofbot_ws/
+  699  cd 
+  700  l
+  701  cd Documents/Obsidian/
+  702  l
+  703  cd pkm_vault/
+  704  l
+  705  ll
+  706  cd .obsidian/
+  707  l
+  708  vim .
+  709  cd
+  710  vim ~/.config/lsd/colors.yaml 
+  711  mkdir ~/.config/tmux
+  712  echo $PS1
+  713  cat ~/Documents/mynotes/extras/vm_history_031225.txt 
+  714  fzf
+  715  cd ../nvim/
+  716  vim
+  717  cd ../tmux/
+  718  vim tmux.conf 
+  719  echo "Already installed (some lines behind, sorry), configuring TMUX..."
+  720  touch ~/.config/tmux/tmux.conf
+  721  vim ~/.config/tmux/tmux.conf
+  722  cd ~/.config/tmux/
+  723  tmux new-sesion
+  724  tmux new-session
+  725  vim tmux.conf
+  726  tmux new-session
+  727  git clone https://github.com/tmux-plugins/tpm ~/.config/tmux/plugins/tpm
+  728  lt ~/.config/tmux/
+  729  vim ~/.config/tmux/tmux.conf
+  730  vim ~/.config/nvim/
+  731  tmux new-session
+  732  actapt && upgapt && cleanapt 
+  733  sudo shutdown -r now
+  734  vim ~/.config/tmux/tmux.conf
+  735  clean
+  736  vim ~/.config/tmux/tmux.conf
+  737  l
+  738  tmux list-sessions | awk 'BEGIN{FS=":"}{print $1}' |      ifne xargs -n 1 tmux kill-session -t
+  739  tmux list-sessions | awk 'BEGIN{FS=":"}{print $1}'
+  740  tmux kill-session -t
+  741  tmux kill-session -t main
+  742  l ~/.config/tmux/tmux.conf 
+  743  vim ~/.config/tmux/tmux.conf 
+  744  l ~/.config/tmux/plugins/tmux/themes/
+  745  mkdir ~/.config/tmux/plugins/tmux/themes/catppuccin
+  746  git clone -b v2.1.3 https://github.com/catppuccin/tmux.git ~/.config/tmux/plugins/catppuccin/tmux
+  747  mkdir ~/.config/tmux/plugins/tmux/themes/catppuccin/tmux
+  748  git clone -b v2.1.3 https://github.com/catppuccin/tmux.git ~/.config/tmux/plugins/catppuccin/tmux
+  749  rm -rf ~/.config/tmux/plugins/tmux/themes/catppuccin
+  750  rm -rf ~/.config/tmux/plugins/catppuccin
+  751  git clone -b v2.1.3 https://github.com/catppuccin/tmux.git ~/.config/tmux/plugins/catppuccin/tmux
+  752  vim ~/.config/tmux/tmux.conf 
+  753  rm ~/.local/share/tmux/resurrect/*
+  754  rm -rf ~/.local/share/tmux/resurrect/*
+  755  ~/.config/tmux/plugins/tpm/bin/clean_plugins 
+  756  tmux list-sessions | awk 'BEGIN{FS=":"}{print $1}'
+  757  tmux kill-session -t 0
+  758  tmux list-sessions | awk 'BEGIN{FS=":"}{print $1}'
+  759  vim ~/.config/tmux/tmux.conf 
+  760  cat .bashrc
+  761  echo $TMUX
+  762  tmux list-sessions | awk 'BEGIN{FS=":"}{print $1}'
+  763  vim ~/.config/tmux/tmux.conf 
+  764  ~/.config/tmux/plugins/tpm/bin/clean_plugins 
+  765  vim ~/.config/tmux/tmux.conf 
+  766  vim ~/Documents/aiwks_dotfiles/docs/rawfiles/install_used_links.md 
+  767  history >> ~/Documents/aiwks_dotfiles/docs/rawfiles/aiwks_history_081225.txt
+  768  l ~/Documents/aiwks_dotfiles/docs/rawfiles/
+  769  vim ~/Documents/aiwks_dotfiles/docs/rawfiles/install_used_links.md 
+  770  clean
+  771  vim ~/Documents/aiwks_dotfiles/docs/rawfiles/install_used_links.md 
+  772  vim ~/.config/tmux/tmux.conf 
+  773  tmux ros2-session
+  774  tmux
+  775  tmux ros2-session
+  776  tmux
+  777  vim ~/.config/tmux/tmux.conf 
+  778  tmux
+  779  vim ~/.config/tmux/tmux.conf 
+  780  tmux
+  781  vim ~/.config/tmux/tmux.conf 
+  782  tmux new ros2-session
+  783  tmux ros2-session
+  784  tmux new ros2-session
+  785  tmux
+  786  vim ~/.config/tmux/tmux.conf 
+  787  tmux
+  788  vim ~/.config/tmux/tmux.conf 
+  789  tmux
+  790  l ~/.local/share/tmux/resurrect/
+  791  rm ~/.local/share/tmux/resurrect/*
+  792  rm -rf ~/.local/share/tmux/resurrect/*
+  793  tmux
+  794  vim ~/.config/tmux/tmux.conf 
+  795  tmux
+  796  mkdir ~/.config/tmux/plugins/catppuccin
+  797  git clone -b v2.1.3 https://github.com/catppuccin/tmux.git ~/.config/tmux/plugins/catppuccin/tmux
+  798  mkdir ~/.config/tmux/plugins/catppuccin
+  799  vim ~/.config/tmux/tmux.conf 
+  800  tmux
+  801  l
+  802  vim ~/.config/tmux/tmux.conf 
+  803  tmus list
+  804  tmux list
+  805  tmux
+  806  tmux list-sessions | awk 'BEGIN{FS=":"}{print $1}' 
+  807  tmux
+  808  tmux list-sessions | awk 'BEGIN{FS=":"}{print $1}' 
+  809  tmux
+  810  ~/.config/tmux/plugins/tpm/bin/clean_plugins 
+  811  tmux
+  812  cd .config/tmux/plugins/
+  813  l
+  814  cd tmux
+  815  l
+  816  rm -rf assets/ docs/ status/ tests/ themes/ utils/ .github/ 
+  817  rm .gitignore .editorconfig .markdownlint.jsonc .shellcheckrc 
+  818  rm CHANGELOG.md CONTRIBUTING.md LICENSE README.md catppuccin*.* renovate.json 
+  819  l
+  820  cd ..
+  821  rm -rf tmux
+  822  l
+  823  cd catppuccin/
+  824  l
+  825  cd tmux/
+  826  pwd
+  827  cd
+  828  vim ~/.config/tmux/tmux.conf 
+  829  tmux
+  830  ~/.config/tmux/plugins/tpm/bin/clean_plugins 
+  831  l
+  832  tmux new ros-session
+  833  tmux ros-session
+  834  tmux
+  835  ~/.config/tmux/plugins/tpm/bin/clean_plugins 
+  836  tmux
+  837  l
+  838  vim ~/.config/nvim/
+  839  vim ~/Documents/aiwks_dotfiles/docs/rawfiles/install_used_links.md 
+  840  cd ~/Documents/
+  841  l
+  842  git clone https://github.com/mrg-mex/mrg-plantilla-repositorio.git
+  843  cd mrg-plantilla-repositorio/
+  844  vim .
+  845  cd
+  846  vim ~/Documents/aiwks_dotfiles/docs/rawfiles/install_used_links.md 
+  847  tmux
+  848  vim ~/.config/alacritty/alacritty.toml 
+  849  tmux
+  850  echo $TERM
+  851  vim ~/.config/alacritty/alacritty.toml 
+  852  exit
+  853  l ROS2Dev/
+  854  vim .bashrc
+  855  sudo dpkg --print-architecture
+  856  exit
+  857  echo $TMUX
+  858  echo $TERM
+  859  cd Documents/
+  860  l
+  861  cd mynotes/
+  862  git pull origin main}
+  863  git pull origin main
+  864  cd
+  865  cd ~/.config/alacritty/
+  866  l
+  867  cd themes/
+  868  l
+  869  cd ~/Downloads/
+  870  git clone https://github.com/alacritty/alacritty-theme.git
+  871  l
+  872  cd -
+  873  cd ~/Downloads/alacritty-theme/
+  874  cd -
+  875  cd ~/Downloads/alacritty-theme/themes/
+  876  l
+  877  cp *.toml ~/.config/alacritty/themes/
+  878  cd -
+  879  l
+  880  cd
+  881  vim ~/Documents/aiwks_dotfiles/docs/rawfiles/install_used_links.md 
+  882  actapt && upgapt && cleanapt 
+  883  tmux
+  884  echo $TERM
+  885  echo $TMUX
+  886  vim ~/.bashrc
+  887  rsttrm 
+  888  l
+  889  cd Applications/
+  890  l
+  891  cd nvim_venv/
+  892  l
+  893  ll
+  894  source .venv/bin/activate
+  895  deactivate 
+  896  cd
+  897  vim ~/.bashrc
+  898  rsttrm 
+  899  l
+  900  python -V
+  901  rm Untitled.ipynb 
+  902  vim ~/.config/tmux/tmux.conf 
+  903  clear && printf '\e[3J'
+  904  echo $TMUX
+  905  echo $TERM
+  906  clear && printf '\e[3J'
+  907  cd Applications/nvim_venv/
+  908  source .venv/bin/activate
+  909  deactivate
+  910  cd
+  911  history | grep uv | grep jupyter
+  912  l
+  913  cd Projects/
+  914  l
+  915  cd notebooks/
+  916  l
+  917  uv run --with jupyter jupyter lab
+  918  uv tool install jupyterlab
+  919  uv tool ensure-path
+  920  uv tool --help
+  921  uv tool list | grep jupyter
+  922  tmux
+  923  vim ~/.config/tmux/tmux.conf 
+  924  clear && printf '\e[3J'
+  925  vim ~/.config/tmux/tmux.conf 
+  926  tmux
+  927  vim ~/.config/tmux/tmux.conf 
+  928  clear && printf '\e[3J'
+  929  vim ~/.config/tmux/tmux.conf 
+  930  clear && printf '\e[3J'
+  931  vim ~/.config/tmux/tmux.conf 
+  932  vim ~/.config/nvim/
+  933  clear && printf '\e[3J'
+  934  vim ~/.config/nvim/
+  935  vim ~/.config/tmux/tmux.conf 
+  936  clear && printf '\e[3J'
+  937  vim ~/.config/tmux/tmux.conf 
+  938  clear && printf '\e[3J'
+  939  vim ~/.config/tmux/tmux.conf 
+  940  ip addr
+  941  ifconfig 
+  942  ros2start 
+  943  ros2 run demo_nodes_cpp listener
+  944  ros2start 
+  945  ros2 run demo_nodes_py talker
+  946  clear && printf '\e[3J'
+  947  vim ~/.config/tmux/tmux.conf 
+  948  vim ~/.config/nvim/
+  949  vim ~/.config/tmux/tmux.conf 
+  950  vim ~/.config/nvim/
+  951  clear && printf '\e[3J'
+  952  vim ~/.config/tmux/tmux.conf 
+  953  vim ~/.config/tmux/tmux.conf 
+  954  tmux
+  955  tmux -h
+  956  tmux ros2
+  957  tmux new ros2
+  958  tmux
+  959  history
+  960  vim .bash_aliases 
+  961  rsttrm 
+  962  history >> ~/Documents/aiwks_dotfiles/docs/rawfiles/aiwks_history_091225.txt
+  963  l ~/Documents/aiwks_dotfiles/docs/rawfiles/
+  964  vim ~/Documents/aiwks_dotfiles/docs/rawfiles/install_used_links.md 
+  965  PROMPT_COMMAND='PS1_CMD1=$(__venv_ps1 "\[\e[0;1;35m\]╾─╼[\[\e[0m\]%s\[\e[0;1;35m\]]\[\e[0m\]"); PS1_CMD2=$(__git_ps1 "\[\e[0;1;32m\]╾─╼[\[\e[0m\] %s\[\e[0;1;32m\]]\[\e[0m\]"); PS1_CMD3=$(__ros_ps1 "\[\e[0;36m\][\[\e[0m\]%s\[\e[0;36m\]]")'; PS1='\[\e[38;5;75;1m\]╭─╼[\[\e[0;34m\]\u\[\e[38;5;31;1m\]@\[\e[0;36m\]\H\[\e[38;5;75;1m\]]\[\e[38;5;68m\]╾─╼[\[\e[0;37m\]\w\[\e[38;5;68;1m\]]\[\e[0m\]${PS1_CMD1}${PS1_CMD2}\n\[\e[38;5;105;1m\]╰─╼\[\e[0m\]${PS1_CMD3} \$ '
+  966  cd Documents/mynotes/
+  967  PROMPT_COMMAND='PS1_CMD1=$(__venv_ps1 "\[\e[0;1;35m\]╾─╼[\[\e[0m\]%s\[\e[0;1;35m\]]\[\e[0m\]"); PS1_CMD2=$(__git_ps1 "\[\e[0;1;32m\]╾─╼[\[\e[0m\] %s\[\e[0;1;32m\]]\[\e[0m\]"); PS1_CMD3=$(__ros_ps1 "\[\e[0;36m\][\[\e[0m\]%s\[\e[0;36m\]]")'; PS1='\[\e[38;5;75;1m\]╭─╼[\[\e[0;38;5;150m\]\u\[\e[38;5;104;1m\]@\[\e[22m\]\H\[\e[38;5;75;1m\]]\[\e[38;5;68m\]╾─╼[\[\e[0;37m\]\w\[\e[38;5;68;1m\]]\[\e[0m\]${PS1_CMD1}${PS1_CMD2}\n\[\e[38;5;105;1m\]╰─╼\[\e[0m\]${PS1_CMD3} \$ '
+  968  cd ~/Projects/notebooks/
+  969  ll
+  970  cd ..
+  971  ll
+  972  cd ..
+  973  l
+  974  cd Applications/nvim_venv/
+  975  source .venv/bin/activate
+  976  deactivate
+  977  PROMPT_COMMAND='PS1_CMD1=$(__venv_ps1 "\[\e[0;1;35m\]╾─╼[\[\e[0m\]%s\[\e[0;1;35m\]]\[\e[0m\]"); PS1_CMD2=$(__git_ps1 "\[\e[0;1;32m\]╾─╼[\[\e[0m\] %s\[\e[0;1;32m\]]\[\e[0m\]"); PS1_CMD3=$(__ros_ps1 "\[\e[0;36m\][\[\e[0m\]%s\[\e[0;36m\]]")'; PS1='\[\e[38;5;67;1m\]╭─╼[\[\e[0;38;5;150m\]\u\[\e[38;5;104;1m\]@\[\e[22m\]\H\[\e[38;5;67;1m\]]\[\e[38;5;68m\]╾─╼[\[\e[0;37m\]\w\[\e[38;5;68;1m\]]\[\e[0m\]${PS1_CMD1}${PS1_CMD2}\n\[\e[38;5;105;1m\]╰─╼\[\e[0m\]${PS1_CMD3} \$ '
+  978  vim .bash_aliases 
+  979  rsttrm 
+  980  cls
+  981  tmux
+  982  tm
+  983  vim ~/.config/tmux/tmux.conf 
+  984  cls
+  985  tmux
+  986  vim .bashrc
+  987  rsttrm 
+  988  cls
+  989  vim ~/.config/tmux/tmux.conf 
+  990  vim ~/.config/tmux/tmux.conf 
+  991  tmux
+  992  vim ~/.config/alacritty/alacritty.toml 
+  993  vim ~/.config/tmux/tmux.conf 
+  994  cls
+  995  vim ~/.config/tmux/tmux.conf 
+  996  cls
+  997  vim ~/.config/tmux/tmux.conf 
+  998  cls
+  999  vim ~/.config/tmux/tmux.conf 
+ 1000  cls
+ 1001  vim ~/.config/tmux/tmux.conf 
+ 1002  cd Documents/
+ 1003  l
+ 1004  mkdir makdown_themes
+ 1005  l
+ 1006  mv makdown_themes/ markdown_themes
+ 1007  cd markdown_themes/
+ 1008  git clone https://github.com/jburkhardt/markdown-css-themes.git
+ 1009  git clone https://github.com/jasonm23/markdown-css-themes.git
+ 1010  l
+ 1011  mv markdown-css-themes/ jburkhardt_markdown-css-themes/
+ 1012  git clone https://github.com/jasonm23/markdown-css-themes.git
+ 1013  mv markdown-css-themes/ jasonm23_markdown-css-themes/
+ 1014  git clone https://github.com/cnak/clean-markdown-theme.git
+ 1015  l
+ 1016  cd jasonm23_markdown-css-themes/
+ 1017  l
+ 1018  cd ..
+ 1019  l
+ 1020  rm -rf jburkhardt_markdown-css-themes/
+ 1021  l
+ 1022  l ~/.local/share/
+ 1023  mkdir ~/.local/share/markdown-themes
+ 1024  cp clean-markdown-theme/cleanTheme.css ~/.local/share/markdown-themes/
+ 1025  vim ~/.config/nvim/
+ 1026  vim ~/Documents/mynotes/
+ 1027  vim ~/Documents/mrg-plantilla-repositorio/README.md 
+ 1028  vim ~/.config/nvim/
+ 1029  vim ~/Documents/mrg-plantilla-repositorio/README.md 
+ 1030  vim ~/.config/nvim/
+ 1031  cls
+ 1032  vim ~/Documents/mynotes/
+ 1033  cd ~/Documents/mynotes/
+ 1034  gst
+ 1035  git pull origin main
+ 1036  git add .
+ 1037  git commit -m "Update dltme_a.md"
+ 1038  git push -u origin main
+ 1039  vim ~/.config/tmux/tmux.conf 
+ 1040  fzf
+ 1041  vim ~/.config/tmux/tmux.conf 
+ 1042  cp ~/.config/tmux/tmux.conf ~/.config/tmux/tmux_conf.bak
+ 1043  l ~/.config/tmux/
+ 1044  vim ~/.config/tmux/tmux.conf 
+ 1045  cls
+ 1046  cd
+ 1047  vim
+ 1048  vim ~/.config/nvim/
+ 1049  cd -
+ 1050  cd ~/Documents/mynotes/
+ 1051  vim docs/academic_notes.md 
+ 1052  cd
+ 1053  vim ~/.config/nvim/
+ 1054  cls
+ 1055  cls
+ 1056  vim ~/.config/tmux/tmux.conf 
+ 1057  tmuw new-session
+ 1058  tmuw new-sesion
+ 1059  tmux new-session
+ 1060  tmux list
+ 1061  vim ~/.config/nvim/
+ 1062  vim ~/Documents/mrg-plantilla-repositorio/README.md 
+ 1063  vim ~/.config/nvim/
+ 1064  actapt && upgapt && cleanapt
+ 1065  echo "Instalando fzf... "
+ 1066  fzf
+ 1067  sudo apt install fzf
+ 1068  fzf --version
+ 1069  fzf -h
+ 1070  fd
+ 1071  fd -v
+ 1072  fd --version
+ 1073  vim .bashrc
+ 1074  rsttrm 
+ 1075  fzfcd 
+ 1076  vim .bashrc
+ 1077  sudo apt install bat
+ 1078  bat .bash_aliases 
+ 1079  batcat .bash_aliases 
+ 1080  bat .bash_aliases 
+ 1081  bat ~/.bash_aliases 
+ 1082  batcat -h
+ 1083  cat -r 20: /etc/hosts
+ 1084  batcat -r 20: /etc/hosts
+ 1085  batcat -r 20: /etc/host
+ 1086  batcat --list-themes
+ 1087  bat ~/.bash_aliases 
+ 1088  vim .bashrc
+ 1089  batcat --theme=nord ~/.bash_aliases 
+ 1090  vim .bashrc
+ 1091  batcat --theme=nord ~/.bash_aliases 
+ 1092  cat .bash_aliases 
+ 1093  batcat --theme=nord --color=always {} .bash_aliases 
+ 1094  batcat --theme=nord --color=always .bash_aliases 
+ 1095  batcat --theme nord --color always .bash_aliases 
+ 1096  batcat --theme anzi-dark .bash_aliases 
+ 1097  batcat --theme ansi-dark .bash_aliases 
+ 1098  batcat --theme Nord .bash_aliases 
+ 1099  batcat --theme ansi .bash_aliases 
+ 1100  vim .bashrc
+ 1101  fzfcd ros
+ 1102  vim .bashrc
+ 1103  fzfcd ros
+ 1104  rsttrm 
+ 1105  fzfcd ros
+ 1106  batcat -h
+ 1107  vim .bashrc
+ 1108  rsttrm 
+ 1109  fzfcd ros
+ 1110  batcat .bash_aliases 
+ 1111  vim .bashrc
+ 1112  rsttrm 
+ 1113  fzf alias
+ 1114  fzf --version
+ 1115  sudo apt remove fzf
+ 1116  cd Downloads/git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
+ 1117  cd Downloads/
+ 1118  cd ..
+ 1119  git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
+ 1120  ~/.fzf/install 
+ 1121  vim ~/Documents/fzf_install.txt
+ 1122  vim .bashrc
+ 1123  vim .fzf.bash 
+ 1124  fzf alias
+ 1125  rsttrm 
+ 1126  fzf 
+ 1127  vim .bashrc
+ 1128  fzfcd ROS2Dev/
+ 1129  fzfp
+ 1130  batcat --theme ansi .bash_aliases 
+ 1131  batcat --theme ansi-dark .bash_aliases 
+ 1132  batcat --theme solarized .bash_aliases 
+ 1133  batcat --list-themese
+ 1134  batcat --list-themes
+ 1135  batcat --theme Solarized (dark) .bash_aliases 
+ 1136  batcat --theme Solarized-(dark) .bash_aliases 
+ 1137  batcat --theme "Solarized (dark)" .bash_aliases 
+ 1138  batcat --theme OneHalfDark .bash_aliases 
+ 1139  vim .bash_aliases 
+ 1140  rsttrm 
+ 1141  fzfcf
+ 1142  fzfcd
+ 1143  cd ..
+ 1144  fzfp
+ 1145  fzfv 
+ 1146  vim .bash_aliases 
+ 1147  rsttrm 
+ 1148  fzfp
+ 1149  vim .bash_aliases 
+ 1150  rsttrm 
+ 1151  cls
+ 1152  cd
+ 1153  mkdir .config/tmux/scripts
+ 1154  vim .config/tmux/scripts/tmux-wnd-menu.sh
+ 1155  chmod +x .config/tmux/scripts/tmux-wnd-menu.sh
+ 1156  vim ~/.config/tmux/tmux.conf 
+ 1157  cls
+ 1158  vim ~/.config/tmux/tmux.conf 
+ 1159  cls
+ 1160  vim ~/.config/tmux/tmux.conf 
+ 1161  cls
+ 1162  fzfp
+ 1163  tmux
+ 1164  echo $PS1
+ 1165  vim .term_prompt.bash
+ 1166  tmux
+ 1167  cd Documents/
+ 1168  l
+ 1169  cd Obsidian
+ 1170  l
+ 1171  cd pkm_vault/
+ 1172  l
+ 1173  mv 00\ -\ Maps\ of\ Content/ 00_Maps_of_Content/
+ 1174  l
+ 1175  mv 01\ -\ Projects/ 01_Projects/
+ 1176  mv 02\ -\ Areas/ 02_Areas/
+ 1177  mv 03\ -\ Resources/ 03_Resources/
+ 1178  mv 04\ -\ Permanent/ 04_Permanent/
+ 1179  mv 05\ -\ Fleeting/ 05_Fleeting
+ 1180  mv 06\ -\ Daily/ 06_Daily/
+ 1181  mv 07\ -\ Archives/ 07_Archives/
+ 1182  mv 99\ -\ Meta/ 99_Meta/
+ 1183  l
+ 1184  obsidian
+ 1185  ps -ef grep obsidian | grep -v grep
+ 1186  ps -ef | grep obsidian | grep -v grep
+ 1187  ps -ef | grep obsidian 
+ 1188  ps | grep obsidian | grep -v grep
+ 1189  sudo shutdown -r now
+ 1190  ps -ef | grep obsidian | grep -v grep
+ 1191  sudo shutdown -r now
+ 1192  cd Documents/Obsidian/
+ 1193  history | grep pkm_vault
+ 1194  cd ..
+ 1195  cd mynotes/
+ 1196  fzfv
+ 1197  it clone https://github.com/rivascf/pkm_vault.git
+ 1198  git clone https://github.com/rivascf/pkm_vault.git
+ 1199  history | grep ssh
+ 1200  ssh -T git@github.com
+ 1201  cd ../Obsidian/
+ 1202  git clone https://github.com/rivascf/pkm_vault.git
+ 1203  fzf
+ 1204  cd ..
+ 1205  l
+ 1206  batcat personal_keys.md 
+ 1207  cd mynotes/
+ 1208  l
+ 1209  cdc ..
+ 1210  cd ..
+ 1211  cd
+ 1212  l
+ 1213  fzfp
+ 1214  cd Documents/
+ 1215  cd Obsidian/
+ 1216  rm -rf pkm_vault/
+ 1217  history | grep pkm
+ 1218  334
+ 1219  history 334
+ 1220  334
+ 1221  history | grep pkm
+ 1222  git clone https://github.com/rivascf/pkm_vault.git
+ 1223  cd ..
+ 1224  cd mynotes/
+ 1225  git pull origin main
+ 1226  vim 
+ 1227  cd Documents/mynotes/
+ 1228  vim .
+ 1229  gst
+ 1230  git add .
+ 1231  git commit -m "Updated yemporal files"
+ 1232  git push -u origin main
+ 1233  vim .
+ 1234  actapt && upgapt && cleanapt 
+ 1235  systemctl list
+ 1236  systemctl list-jobs
+ 1237  systemctl -h
+ 1238  systemctl list-units --type=service
+ 1239  systemctl list-units --type=service --all
+ 1240  cd Documents/aiwks_dotfiles/docs/rawfiles/
+ 1241  l
+ 1242  vim install_used_links.md 
+ 1243  cd
+ 1244  vim .config/nvim/
+ 1245  cd -
+ 1246  vim install_used_links.md 
+ 1247  fzfp
+ 1248  cd -
+ 1249  fzfp
+ 1250  l .local/share/markdown-themes/
+ 1251  mv .local/share/markdown-themes/ ~/.config/nvim/
+ 1252  l ~/.config/nvim/
+ 1253  cd ~/.config/nvim/markdown-themes/
+ 1254  pwd
+ 1255  cd ..
+ 1256  vim .
+ 1257  mv markdown-themes/ ./lua/frivas/
+ 1258  vim .
+ 1259  mv ./lua/frivas/markdown-themes/ ./lua/frivas/plugins/
+ 1260  l ./lua/frivas/plugins/
+ 1261  cd ./lua/frivas/plugins/markdown-themes/
+ 1262  pwd
+ 1263  cd -
+ 1264  vim .
+ 1265  cd Documents/aiwks_dotfiles/docs/rawfiles/
+ 1266  cd ~/Documents/aiwks_dotfiles/docs/rawfiles/
+ 1267  vim
+ 1268  vim install_used_links.md 
+ 1269  cd ..
+ 1270  vim ~/.config/nvim/
+ 1271  cd -
+ 1272  vim .
+ 1273  cd ~/Documents/mynotes/
+ 1274  vim
+ 1275  cd ~/Documents/aiwks_dotfiles/docs/rawfiles/
+ 1276  vim install_used_links.md 
+ 1277  cd
+ 1278  cd Documents/mynotes/
+ 1279  vim
+ 1280  cd Documents/mynotes/
+ 1281  vim .
+ 1282  cd Documents/mynotes/
+ 1283  gst
+ 1284  git add temporal/dltme_notes.md 
+ 1285  git commit -m "Updated temporal files."
+ 1286  gst
+ 1287  git push -u origin main
+ 1288  vim Documents/aiwks_dotfiles/docs/rawfiles/install_used_links.md 
+ 1289  vim Documents/mynotes/docs/Obsidian_notes.md 
+ 1290  vim ~/.config/nvim/init.lua 
+ 1291  vim ~/.config/nvim/
+ 1292  fc-list | grep "Nerd Font" |  grep Mono
+ 1293  vim ~/.config/nvim/
+ 1294  vim Documents/test.py
+ 1295  rm Documents/test.py
+ 1296  vim ~/.config/nvim/
+ 1297  batcat ~/Documents/aiwks_dotfiles/docs/rawfiles/aiwks_history_021225.txt 
+ 1298  cd Downloads/
+ 1299  bash -c  "$(curl -fsSL https://raw.githubusercontent.com/officialrajdeepsingh/nerd-fonts-installer/main/install.sh)"
+ 1300  fc-list | grep "Nerd Font" |  grep Mono
+ 1301  vim ~/.config/nvim/
+ 1302  vim Documents/test.py
+ 1303  vim ~/Documents/test.py
+ 1304  vim ~/.config/nvim/
+ 1305  actapt && upgapt && cleanapt 
+ 1306  sudo shutdown -r now
+ 1307  cls
+ 1308  cls
+ 1309  l
+ 1310  cd Projects/
+ 1311  l
+ 1312  mkdir Assistant
+ 1313  cd Assistant/
+ 1314  uv init 
+ 1315  l
+ 1316  ll
+ 1317  vim .
+ 1318  wich isort
+ 1319  which isort
+ 1320  where isort
+ 1321  fzfp
+ 1322  cd
+ 1323  fzfp
+ 1324  cd -
+ 1325  vim .
+ 1326  python -V
+ 1327  python main.py 
+ 1328  ollama list
+ 1329  curl -fsSL https://ollama.com/install.sh | sh
+ 1330  ollama list
+ 1331  ollama run nemotron-3-nano
+ 1332  ollama list
+ 1333  cls
+ 1334  cd Applications/
+ 1335  l
+ 1336  cd nvim_venv/
+ 1337  source .venv/bin/activate
+ 1338  pip install isort blck
+ 1339  pip install isort black
+ 1340  python -v
+ 1341  python -V
+ 1342  pip install isort black
+ 1343  l
+ 1344  uv cat python 
+ 1345  uv cat pyproject.toml 
+ 1346  cat pyproject.toml 
+ 1347  uv add isort
+ 1348  cat pyproject.toml 
+ 1349  nvidia-smi
+ 1350  tmux new-session
+ 1351  nvidia-smi
+ 1352  cd Projects/
+ 1353  l
+ 1354  cd Assistant/
+ 1355  l
+ 1356  gst
+ 1357  python -V
+ 1358  cd ..
+ 1359  python -V
+ 1360  nvidia-smi -q
+ 1361  nvidia-smi -L
+ 1362  nvidia-smi -B
+ 1363  nvidia-smi -col
+ 1364  nvidia-smi -l 1
+ 1365  watch nvidia-smi
+ 1366  vim ~/.bash_aliases 
+ 1367  rsttrm 
+ 1368  cls
+ 1369  nvtop
+ 1370  gpu-monitor 
+ 1371  cls
+ 1372  l
+ 1373  nvtop
+ 1374  cd ~/ROS2Dev/
+ 1375  cls
+ 1376  l
+ 1377  mkdir -p dofbot_ws/src
+ 1378  mkdir -p dev_ws/src
+ 1379  cd dev_ws/
+ 1380  colcon build
+ 1381  l
+ 1382  cls
+ 1383  cd src
+ 1384  vim .
+ 1385  ros2 pkg
+ 1386  ros2start 
+ 1387  ros2 pkg create test_pkg --build-type ament_python --maintainer-name "Felipe Rivas" --maintainer-email rivascf@gmail.com --description "ROS2 test package" --license MIT --dependencies rclpy --node-name test_node
+ 1388  vim .
+ 1389  cls
+ 1390  cd ~/ROS2Dev/
+ 1391  cls
+ 1392  cd ~/ROS2Dev/
+ 1393  cls
+ 1394  gpu-monitor 
+ 1395  history | tail -10
+ 1396  tmux new-session
+ 1397  sudo install nvtop
+ 1398  sudo apt install nvtop
+ 1399  nvtop
+ 1400  tmux new-session
+ 1401  cd Documents/mynotes/
+ 1402  vim .
+ 1403  cd Documents/mynotes/
+ 1404  vim .
+ 1405  vim ~/.config/nvim/
+ 1406  gst
+ 1407  git add docs/Obsidian_notes.md 
+ 1408  git commit -m "Updated doc files"
+ 1409  git add .
+ 1410  git commit -m "Updated temporal files"
+ 1411  gst
+ 1412  g lg 
+ 1413  vim .
+ 1414  cd Documents/mynotes/
+ 1415  vim .
+ 1416  vim ~/.config/nvim/
+ 1417  vim .
+ 1418  cat temporal/dltme_notes.md  | tail -50
+ 1419  cat temporal/dltme_notes.md  | tail -1400
+ 1420  cat temporal/dltme_notes.md  | more
+ 1421  vim .
+ 1422  black --version
+ 1423  fzfp black
+ 1424  fzfp
+ 1425  vim ~/.config/nvim/
+ 1426  sudo apt install python3-venv
+ 1427  vim ~/.config/nvim/
+ 1428  l ~/.local/share/nvim/
+ 1429  l ~/.local/share/nvim/mason/
+ 1430  l ~/.local/share/nvim/mason/bin/
+ 1431  vim ~/.config/nvim/
+ 1432  l ~/.local/share/nvim/mason/packages/
+ 1433  vim ~/.config/nvim/
+ 1434  cd ~/ROS2Dev/dev_ws/src/
+ 1435  ros2start 
+ 1436  vim .
+ 1437  cd -
+ 1438  ros2 node list
+ 1439  ros2start 
+ 1440  ros2 node list
+ 1441  vim .
+ 1442  actapt && upgapt && cleanapt 
+ 1443  l
+ 1444  tmux new-session
+ 1445  exit
+ 1446  ip addr
+ 1447  fzfp 
+ 1448  lt ROS2Dev/dev_ws/src/test_pkg/test_pkg/
+ 1449  fzfv
+ 1450  exit
+ 1451  actapt && upgapt && cleanapt 
+ 1452  sudo shutdown -r now
+ 1453  ls
+ 1454  l
+ 1455  rm 'ystemctl list-units --type=service --all' 
+ 1456  systemctl list-units --type=service --all
+ 1457  vim .bash_aliases 
+ 1458  nvtop 
+ 1459  l
+ 1460  cd Projects/
+ 1461  l
+ 1462  cd ~/Documents/mynotes/
+ 1463  gst
+ 1464  git pull origin main
+ 1465  gst
+ 1466  git checkout -b temp
+ 1467  git add .
+ 1468  git commit -m "Temporal commit file"
+ 1469  git checkout main
+ 1470  git pull origin main
+ 1471  git pull origin main --rebase
+ 1472  git rebase --abort
+ 1473  gst
+ 1474  git pull origin main
+ 1475  git pull origin main --rebase
+ 1476  git rebase --skip
+ 1477  gst
+ 1478  g lg
+ 1479  cd
+ 1480  l
+ 1481  history grep uv
+ 1482  history | grep uv
+ 1483  uv python list
+ 1484  l
+ 1485  cd Projects/
+ 1486  l
+ 1487  mkdir mini-vla
+ 1488  cd mini-vla/
+ 1489  un init --python 3.10
+ 1490  uv init --python 3.10
+ 1491  l
+ 1492  ll
+ 1493  uv venv --python 3.10
+ 1494  source .venv/bin/activate
+ 1495  git clone https://github.com/keivalya/mini-vla.git
+ 1496  l
+ 1497  rm main.py README.md 
+ 1498  mv -r mini-vla/* ./
+ 1499  mv  mini-vla/* ./
+ 1500  l
+ 1501  lt mini-vla/
+ 1502  rm -rf mini-vla/
+ 1503  l
+ 1504  uv add requirements.txt 
+ 1505  python -m scripts.collect_data   --env-name push-v3   --camera-name corner   --episodes 100   --max-steps 100   --output-path data/metaworld_push_bc.npz
+ 1506  python -m scripts.train   --dataset-path data/push_v3.npz   --epochs 50   --batch-size 64   --save-path checkpoints/model.pt   --device cpu
+ 1507  python -m scripts.train   --dataset-path data/push_v3.npz   --epochs 50   --batch-size 64   --save-path checkpoints/model.pt   --device gpu
+ 1508  python -m scripts.train   --dataset-path data/push_v3.npz   --epochs 50   --batch-size 64   --save-path checkpoints/model.pt   --device cida
+ 1509  python -m scripts.train   --dataset-path data/push_v3.npz   --epochs 50   --batch-size 64   --save-path checkpoints/model.pt   --device cuda
+ 1510  l
+ 1511  lt data
+ 1512  fzfp
+ 1513  deactivate 
+ 1514  cd
+ 1515  l
+ 1516  chkdsksp 
+ 1517  cd ~/Documents/mynotes/
+ 1518  vim .
+ 1519  cd Documents/mynotes/
+ 1520  vim .
+ 1521  gst
+ 1522  git add .
+ 1523  git commit -m "Added tabs_chrome_linux to temporal files."
+ 1524  git push origin main 
+ 1525  git push -u origin main 
+ 1526  g lg
+ 1527  ls
+ 1528  l
+ 1529  cd Downloads/
+ 1530  l
+ 1531  history | grep tar
+ 1532  cat ~/Documents/aiwks_dotfiles/docs/rawfiles/aiwks_history_021225.txt 1 grep tar
+ 1533  cat ~/Documents/aiwks_dotfiles/docs/rawfiles/aiwks_history_021225.txt | grep tar
+ 1534  l
+ 1535  cat ~/Documents/aiwks_dotfiles/docs/rawfiles/aiwks_history_021225.txt | grep tar.xz
+ 1536  cat ~/Documents/aiwks_dotfiles/docs/rawfiles/aiwks_history_091225.txt | grep tar.xz
+ 1537  cat ~/Documents/aiwks_dotfiles/docs/rawfiles/aiwks_history_091225.txt | grep tar
+ 1538  sudo snap install blender --classic
+ 1539  l
+ 1540  rm blender-5.0.1-linux-x64.tar.xz 
+ 1541  l
+ 1542  rm Zotero-7.0.30_linux-x86_64.tar.bz2 
+ 1543  l
+ 1544  rm zotero-better-bibtex-7.0.68.xpi 
+ 1545  rm CascadiaCode.zip 
+ 1546  l
+ 1547  mv GLB0.glb 2b_bust.glb
+ 1548  mv hitem3d.glb woman_3d.glb
+ 1549  l
+ 1550  ollama
+ 1551  ollama list
+ 1552  ollama run nemotron-3-nano
+ 1553  ollama list
+ 1554  ollama ps
+ 1555  ollama stop nemotron-3-nano
+ 1556  ollama ps
+ 1557  ollama run nemotron-3-nano
+ 1558  ollama stop nemotron-3-nano
+ 1559  actapt && upgapt && cleanapt 
+ 1560  sudo shutdown -r now
+ 1561  o
+ 1562  cls
+ 1563  cls
+ 1564  cls}
+ 1565  csl
+ 1566  cls
+ 1567  fzfp
+ 1568  actapt && upgapt && cleanapt 
+ 1569  watch nvidia-smi 
+ 1570  tmux --new-session
+ 1571  tmux 
+ 1572  actapt && upgapt && cleanapt 
+ 1573  nvidia-smi 
+ 1574  cd Documents/aiwks_dotfiles/
+ 1575  l
+ 1576  cd docs/
+ 1577  cd raw
+ 1578  cd rawfiles/
+ 1579  l
+ 1580  history >> aiwks_history_090226.txt

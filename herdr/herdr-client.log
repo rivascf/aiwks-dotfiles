@@ -1,0 +1,20 @@
+2026-08-13T21:09:19.866154Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="client" outcome="started" pid=6827
+2026-08-13T21:09:19.866183Z  INFO herdr::client: connecting to server path=/home/frivas/.config/herdr/herdr-client.sock
+2026-08-13T21:09:20.018750Z  INFO herdr::client: handshake succeeded version=19 encoding=SemanticFrame
+2026-08-13T21:15:39.056720Z  INFO herdr::logging: herdr exiting event="app.shutdown" subsystem="client" outcome="completed" pid=6827
+2026-08-13T21:25:39.197746Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="client" outcome="started" pid=8592
+2026-08-13T21:25:39.197812Z  INFO herdr::client: connecting to server path=/home/frivas/.config/herdr/herdr-client.sock
+2026-08-13T21:25:39.389588Z  INFO herdr::client: handshake succeeded version=19 encoding=SemanticFrame
+2026-08-13T21:33:56.502271Z  INFO herdr::logging: herdr exiting event="app.shutdown" subsystem="client" outcome="completed" pid=8592
+2026-08-18T19:09:21.491912Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="client" outcome="started" pid=4402
+2026-08-18T19:09:21.497654Z  INFO herdr::client: connecting to server path=/home/frivas/.config/herdr/herdr-client.sock
+2026-08-18T19:09:21.613598Z  INFO herdr::client: handshake succeeded version=19 encoding=SemanticFrame
+2026-08-18T19:26:54.626291Z  INFO herdr::logging: herdr exiting event="app.shutdown" subsystem="client" outcome="completed" pid=4402
+2026-08-18T19:36:07.477240Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="client" outcome="started" pid=9565
+2026-08-18T19:36:07.477303Z  INFO herdr::client: connecting to server path=/home/frivas/.config/herdr/herdr-client.sock
+2026-08-18T19:36:07.545363Z  INFO herdr::client: handshake succeeded version=19 encoding=SemanticFrame
+2026-08-18T19:36:43.330141Z  INFO herdr::logging: herdr exiting event="app.shutdown" subsystem="client" outcome="completed" pid=9565
+2026-08-18T21:17:05.700763Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="client" outcome="started" pid=4389
+2026-08-18T21:17:05.702418Z  INFO herdr::client: connecting to server path=/home/frivas/.config/herdr/herdr-client.sock
+2026-08-18T21:17:05.867682Z  INFO herdr::client: handshake succeeded version=19 encoding=SemanticFrame
+2026-08-18T21:23:17.033245Z  INFO herdr::logging: herdr exiting event="app.shutdown" subsystem="client" outcome="completed" pid=4389
